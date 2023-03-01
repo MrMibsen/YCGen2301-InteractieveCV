@@ -1,0 +1,15 @@
+/* CSS voor index.html voor interactieve CV pagina */
+
+/* div over het team */
+#overhetteam {
+    padding: 10px;
+    background-color: #2dc9de;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
