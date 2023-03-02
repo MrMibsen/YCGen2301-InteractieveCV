@@ -1,0 +1,86 @@
+/* CSS voor daanpagina.css */
+
+/* voorbeeld */
+#bloklinks {
+    padding: 10px;
+    background-color: #2dc9de;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#daanlinkedin{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
+}
+
+#vaardighedentekst{
+    text-align: center;
+}
+
+#blokrechts {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* navbar */
+.navbar {
+    background-image: url("universe.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#navknop{
+    background-color: #2dc9de !important;
+    border-color: #2dc9de !important;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.navbar a {
+    color: 	#5A5A5A !important;
+    font-size: 17px;
+}
+
+#tekstnavbar{
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+/* Member worden knop navbar */
+#memberknop {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #5C5CFF;
+    border-radius: 10px !important;
+}
+
+#memberknop:hover {
+    background-color: #8A8AFF;
+}
+
