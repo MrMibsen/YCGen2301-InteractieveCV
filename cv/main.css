@@ -1,0 +1,252 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+            
+#wrapper {
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color: black;
+    height: 100%;
+}
+
+.container-fluid {
+    margin: 0 auto !important;
+}
+
+#header, #button, #darkButton, .tablinks {
+    background-color: #f298ce;
+}
+
+#darkButton, #button {
+    border-radius: 10px;
+    border-style: dotted !important;
+    border-width: 4px !important;
+    margin-top: 10px !important;
+}
+
+.navbar-custom li a {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+#cart {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+#button, #darkButton, .tablinks {
+    color: #FFFFFF;
+}
+
+#button:hover, #darkButton:hover, .tablinks:hover {
+    background-color: #f374c0;
+}
+
+.navbar-custom a:hover {
+    color: rgb(118, 92, 92);
+}
+            
+#pers {
+    width: 60%;
+    position: relative;
+    float: left;
+}
+
+#tabbladen {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+div.resp {
+    margin: 5px 0px;
+    font-size: 20px;
+}
+
+div.resp2 {
+    font-size: 20px;
+}
+            
+#foto {
+    width: 40%;
+    position: relative;
+    float: right;
+}
+
+#Opleidingen {
+    display: block;
+}       
+            
+td, p {
+    padding: 10px;
+    font-size: 20px;
+}
+            
+#button {
+    padding: 1% 5%;
+    border-radius: 12px;
+    border: 2px solid lightblue;
+    margin: auto;
+    cursor: pointer;
+}
+            
+#darkButton {
+    padding: 1% 1%;
+    border: 1px solid lightblue;
+    margin: 10px;
+    cursor: pointer;
+}
+            
+#loadingImage {
+    vertical-align: middle;
+    text-align: center;
+}
+            
+#nee {
+    display: none;
+    font-size: 15vmin;
+    color: red;
+}
+            
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+            
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+}
+
+/* tab button style */
+.tablinks {
+    border: 1px solid lightblue;
+    cursor: pointer;
+    padding: 1% 5%;
+}
+
+/* tab content style */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Flipcards */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  /* Positie v/d cards */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* De flip zelf */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Positie v/d voor- en achterkant */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style v/d voorkant */
+  .flip-card-front {
+    background-color: #ecb3d5;
+    color: black;
+  }
+  
+  /* Style v/d achterkant */
+  .flip-card-back {
+    background-color: lightcoral;
+    color: white;
+    transform: rotateY(180deg);
+  } 
+
+/* dark mode */
+.dark-mode html, .dark-mode #wrapper, .dark-mode #pers, .dark-mode .tabcontent {
+    background-color: #454444 !important;
+    color: #CCC;
+}
+
+.dark-mode #wrapper, .dark-mode #tabbladen, .dark-mode #pers, .dark-mode .flip-card {
+    background-color: #242424;
+    color: #CCC;
+}
+
+.dark-mode .flip-card-front, .dark-mode .flip-card-back {
+    background-color: #312e2e;
+    color: #CCC;
+}
+            
+.dark-mode #button, .dark-mode #header {
+    background: #0D0D0D;
+    color: #CCC;
+    border: 2px solid black;
+}
+            
+.dark-mode #button:hover {
+    background: #2B2B2B;
+    border: 2px solid black;
+}
+            
+.dark-mode #darkButton {
+    background: #0D0D0D;
+    border: 1px solid black;
+    color: #CCC;
+}
+            
+.dark-mode #darkButton:hover {
+    background: #2B2B2B;
+    border: 1px solid black;
+}
+            
+.dark-mode .tablinks {
+    background: #0D0D0D;
+    color:  #CCC;
+    border: 2px solid black;
+}
+            
+.dark-mode .tablinks:hover {
+    background: #2B2B2B;
+    border: 2px solid black;
+    color: #CCC;
+}
+
+@media(max-width: 500px) {
+    .tablinks {
+        font-size: 13px;
+    }
+    li a.navbar {
+        font-size: 13px;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 600px) {
+    li a.navbar {
+        font-size: 15px;
+    }
+}
