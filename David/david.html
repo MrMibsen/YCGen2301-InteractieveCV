@@ -1,62 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <style>
-    .collapsible {
-      background-color: #777;
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: #555;
-    }
-    
-    .content {
-      padding: 0 18px;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-      background-color: #f1f1f1;
-    }
-    </style>
-  
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="david.css">
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Interactief CV David</title>
-    </head>
-    <script>
-      function QRredirectLinkedin(abc) {
-        <a href="https://www.linkedin.com/in/david-redder-190133209/">VisitLinkedin</a>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="david.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactief CV David</title>
+
+    <style>
+      .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
       }
-    </script>
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+      }
+      </style>
+
+    </head>
     
     <body>
         <div class ="w3-container w3-bluew">
-
           <div class="row">
+            <div class="col-lg-4 qualities-section">
+                <h1>Personal Information</h1>
+                <h4>Name: David Redder</h4>
+                <h4>Adress: Heuvellaan 35, 2803DV, Gouda</h4>
+                <h4>Phone no.: +31 6 365 88 700</h4>
+                <h4>E-mail: david-redder@hotmail.com</h4>
+                <h4>Gender: Male</h4>
+                <h4>Birthdate: 27-04-1993</h4>
 
-              <div class="col-lg-4">
-                  <h1>Personal Information</h1>
-                  <h4>Name: David Redder</h4>
-                  <h4>Adress: Heuvellaan 35, 2803DV, Gouda</h4>
-                  <h4>Phone no.: +31 6 365 88 700</h4>
-                  <h4>E-mail: david-redder@hotmail.com</h4>
-                  <h4>Gender: Male</h4>
-                  <h4>Birthdate: 27-04-1993</h4>
+            </div>
 
-              </div>
-
-              <div class="col-lg-4">
+              <div class="col-lg-4 qualities-section">
                 
                 <div>
                   <h1 style="text-align: center;">Github:</h1>
@@ -93,10 +87,10 @@
                   
               </div>
 
-              <div class="col-lg-4">
+              <div class="col-lg-4 qualities-section">
 
                 <div>
-                  <h1 style="text-align: center;">Linkedin:</h1>
+                  <h1>Linkedin:</h1>
                   <a href="https://www.linkedin.com/in/david-redder-190133209/">
                     <input type="image" id="myimage" src="DavidLinkedInQR.png" />
                   </a>
@@ -105,12 +99,10 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img src="mooiedavid.jpg" alt="Avatar" width="300px", height="300px" >
+                        <h1>Critical Thinking</h1>
                       </div>
                       <div class="flip-card-back">
-                        <h1>John Doe</h1>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+                        <h2>I view every project with a critical eye, this helps me to specify details and weed out problem beforehand.</h2>
                       </div>
                     </div>
                   </div>
@@ -133,14 +125,38 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-6">
               <h1>"I left every town better than I found it."</h1>
-              <h4 style="text-align: end;">- Mollymauk Tealeaf</h4>
-              <h6>This quote has become a personal motto of mine, and it has helped me to become a better person. It allows me to achieve my full potential by being what I am best: a kind person.</h6>
             </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-8">
+            </div>
+
+            <div class="col-lg-3">
+              <h4 style="text-align: end;">- Mollymauk Tealeaf</h4>
+            </div>
+
+            <div class="col-lg-1">
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+            </div>
+
+            <div class="col-lg-5">
+              <h6 style="text-align: center;">This quote has become a personal motto of mine, and it has helped me to become a better person. It allows me to achieve my full potential by being what I am best: a kind person.</h6>
+            </div>
+
+            <div class="col-lg-1">
+            </div>
+
           </div>
 
         </div>
@@ -148,7 +164,7 @@
           <div class="row">
             <div class="col-lg-6">
 
-              <button class="collapsible">Test Engineer | 02-2022 / 09-2022</button>
+              <button type="button" class="collapsible">Test Engineer | 02-2022 / 09-2022</button>
               <div class="content">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
@@ -197,27 +213,33 @@
                 </div>
 
             </div>
+
           </div>
 
 
-        <script>
-          var coll = document.getElementsByClassName("collapsible");
-          var i;
+          <button type="button" class="collapsible">Test Engineer | 02-2022 / 09-2022</button>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
           
-          for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-              this.classList.toggle("active");
-              var content = this.nextElementSibling;
-              if (content.style.display === "block") {
-                content.style.display = "none";
-              } else {
-                content.style.display = "block";
-              }
-            });
-          }
-        </script>
-
     </body>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
