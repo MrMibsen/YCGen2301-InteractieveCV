@@ -6,19 +6,26 @@
 
   <body>
 
-    <div id="score">0</div>
-    <canvas id="snakeboard" width="400" height="400"></canvas>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12" id="score">0</div>
+        <canvas class="col-lg-12" id="snakeboard" width="400" height="400"></canvas>
+      </div>
+    </div>
 
     <style>
       #snakeboard {
-        position: absolute;
+        position: relative;
+        margin-top: 30px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
       #score {
+        position: relative;
         text-align: center;
-        font-size: 140px;
+        font-size: 120px;
+        margin-bottom: 150px;
       }
     </style>
   </body>
