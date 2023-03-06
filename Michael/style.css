@@ -9,20 +9,20 @@ header, nav, section, article, aside, footer{
 }
 
 h1{
-	font: bold 28px arial;
+	font: bold 45px arial;
 	margin-left: 100px;
 	color: black;
 }
 
 h2{
-	font: bold 20px arial;
+	font: bold 25px arial;
 	margin-left: 100px;
 	color:black;
 }
 
-h1, h2{
+h1, h2, #instructions{
 	animation-name: appearing;
-	 animation-duration: 1s;
+	 animation-duration: 3s;
 	 animation-delay: 1s;
  	 animation-timing-function: linear;
 	 animation-fill-mode: forwards;	
@@ -59,7 +59,12 @@ h1, h2{
 body{
 	background: black;
 }
-	 
+	
+#Sublist{
+	font: 20px arial;
+	position:relative; left:12px;
+}
+
 #group{
    text-align: left;
    color:white;
@@ -123,18 +128,18 @@ cursor:pointer;
 }
 
 #instructions{
-	opacity: 0;
-	display: block;
+	/* opacity: 100; */
+	/* display: block; */
 	position: absolute;
-	font: bold 10px arial;
-	margin: 550px 0px 0px 1158px;
-	color: white;
-	animation-name: appearing2;
-	 animation-delay: 6s;
-	 animation-duration: 1s;
+	font: bold 15px arial;
+	/* margin: 550px 0px 0px 1158px; */
+	/* color: white; */
+	/* animation-name: appearing;
+	 animation-delay: 1s;
+	 animation-duration: 2s;
  	 animation-timing-function: linear;
-	 animation-fill-mode: none;	
-	z-index: -1;
+	 animation-fill-mode: none;	 */
+	/* z-index: -1; */
 }
 
 #section{
@@ -198,7 +203,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 .statsTable{
 	display: inline-block;
 	position: relative;
-	margin: 0px 0px 0px 15px;
+	margin: 0px 0px 0px -20px;
 	border-spacing: 0px 0px;
 	line-height: 30px;
 	border-collapse: collapse;
@@ -432,7 +437,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 }
 
 #aside{
-	position: absolute;
+	position:relative;
 	margin: 0px 0px 0px 830px;
 	z-index: 3;	
 }
@@ -440,7 +445,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 #menu{
 	position: absolute;
 	padding: 10px 0px 10px 40px;
-	width: 250px;
+	width: 305px;
 	list-style: none;
 	background: radial-gradient(-180px 0px,circle ,#0053ad 100px,#001b85 350px,#000223);
      background: -moz-radial-gradient(-180px 0px,circle ,#0053ad 100px,#001b85 350px,#000223);
@@ -612,6 +617,12 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 	100%{
 	  transform: translate(0px,0px);
 	}
+}
+
+@keyframes fadeIn {
+	animation-delay: 1s;
+	0% { opacity: 0; }
+	100% { opacity: 1; }
 }
 
 @keyframes appearing{
