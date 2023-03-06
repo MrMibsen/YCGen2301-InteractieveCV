@@ -1,12 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Michael Ibsen - CV</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    <p>Hello World o_0</p>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+	<title>Menu that looks like Final Fantasy</title>
+	<meta charset="UTF-8">
+	<meta name="description" content ="Menus">
+	<meta name="Keywords"	content="Menu, FF7, Classic">	 
+	<link rel="stylesheet" href="MenuFF7.css">	 
+</head>
+<body>
+	<div id ="screen"></div>
+ 	<div id="group">
+		<header id="header">
+			<hgroup>
+				<br>
+				<h1 class = "extra">Michael Ibsen</h1>
+				<h2 class = "extra">DevOps Software Engineer</h2>
+			</hgroup>
+		</header>
+
+		<nav id="nav">
+		</nav>
+
+		<audio id = "controls" class = "extra" controls="controls" autoplay="false" loop>
+			<source id = "music" src="https://www.dropbox.com/s/9x1mavi1pes6f28/Barret%27s%20Theme.mp3?raw=1" type="audio/mp3"/>
+		</audio>
+		
+		<!-- <img id = "left" class = "extra" src = "https://www.dropbox.com/s/aj9em3nbz9yr9nl/FF7CursorLeft.png?raw=1"> -->
+		<img id = "left" class = "extra">
+		<!-- <img id = "right" class = "extra" src = "https://www.dropbox.com/s/1pq4d1ksjv3tuoz/FF7Cursor.png?raw=1"> -->
+		<img id = "right" class = "extra">
+		<br>
+		<h1 id = "instructions" class = "extra">Press arrow keys to navigate menu, enter to go to item.</h1>
+
+		<section id="section">	
+
+			<article id="firstCharacter">
+				<figure class = "photoContainer"><img id = "firstPosition" class="photo" src="HeadshotMichael.jpg"></figure>
+				<table id = "firstStats" class = "statsTable">
+					<tr>
+						<td COLSPAN="3" id ="firstName">Michael</td>
+					</tr>
+					<tr>
+						<td class="lv">LV</td>
+						<td COLSPAN="2" id="firstLevel">7<span id ="firstStatus"></span></td>
+					</tr>
+					<tr>
+						<td class="hp">HP<div id = "firstHpBar" class ="hpBar"></div><div class = "hpBarFont"></div></td>
+						<td id ="firstHpMin">359/</td>
+						<td id ="firstHpMax">431</td>
+					</tr>
+					<tr>
+						<td class="mp">MP<div id = "firstMpBar" class ="mpBar"></div><div class = "mpBarFont"></div></td>
+						<td id ="firstMpMin">63/</td>
+						<td id ="firstMpMax">78</td>
+					</tr>
+				</table>
+				<table id ="firstLevels" class = "levelsTable">
+						<tr>
+							<td>next level<div id ="firstLevelBar" class ="levelBar"></div><div class = "levelBarFont"></div></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td id ="firstLimitLevel">Limit level &nbsp;1<div id ="firstLimitBar" class = "limitBar"></div><div class = "limitBarFont"></div></td>
+						</tr>
+					</table>
+			</article>
+			
+			<!-- <article id="secondCharacter">
+					<figure class = "photoContainer"><img id = "secondPosition" class="photo" src="https://www.dropbox.com/s/9w8nh7tbjm16bws/Barret.jpg?raw=1"></figure>
+					<table id = "secondStats" class ="statsTable">
+						<tr>
+							<td COLSPAN="3" id ="secondName">Barret</td>
+						</tr>
+						<tr>
+							<td class="lv">LV</td>
+							<td COLSPAN="2" id ="secondLevel">7<span id ="secondStatus"></span></td>
+						</tr>
+						<tr>
+							<td class="hp">HP<div id ="secondHpBar" class ="hpBar"></div><div class = "hpBarFont"></div></td>
+							<td id ="secondHpMin">341/</td>
+							<td id ="secondHpMax">341</td>
+						</tr>
+						<tr>
+								<td class="mp">MP<div id ="secondMpBar" class="mpBar"></div><div class = "mpBarFont"></div></td>
+								<td id="secondMpMin">48/</td>
+								<td id ="secondMpMax">48</td>
+							</tr>
+					</table>
+					<table id = "secondLevels" class ="levelsTable">
+							<tr>
+								<td>next level<div id ="secondLevelBar" class ="levelBar"></div><div class = "levelBarFont"></div></td>
+							</tr>
+							<tr>
+									<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td id ="secondLimitLevel">Limit level &nbsp;1<div id ="secondLimitBar" class = "limitBar"></div><div class = "limitBarFont"></div></td>
+							</tr>
+						</table>
+			</article> -->
+
+				<!-- <article id="thirdCharacter">
+						<figure class = "photoContainer"><img id = "thirdPosition" class="photo" src="https://www.dropbox.com/s/rwhixlwp2qk0wdz/Tifa.jpg?raw=1"></figure>
+						<table id = "thirdStats" class ="statsTable">
+							<tr>
+								<td COLSPAN="3" id ="thirdName">Tifa</td>
+							</tr>
+							<tr>
+								<td class="lv">LV</td>
+								<td COLSPAN="2" id ="thirdLevel">5<span id ="thirdStatus"></span></td>
+							</tr>
+							<tr>
+								<td class="hp">HP<div id ="thirdHpBar" class ="hpBar"></div><div class = "hpBarFont"></div></td>
+								<td id ="thirdHpMin">284/</td>
+								<td id ="thirdHpMax">284</td>
+							</tr>
+							<tr>
+									<td class="mp">MP<div id ="thirdMpBar" class ="mpBar"></div><div class = "mpBarFont"></div></td>
+									<td id ="thirdMpMin">41/</td>
+									<td id ="thirdMpMax">41</td>
+								</tr>
+						</table>
+						<table id = "thirdLevels" class ="levelsTable">
+								<tr>
+									<td>next level<div id ="thirdLevelBar" class ="levelBar"></div><div class = "levelBarFont"></div></td>
+								</tr>
+								<tr>
+										<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td id ="thirdLimitLevel">Limit level &nbsp;1<div id ="thirdLimitBar" class ="limitBar"></div><div class = "limitBarFont"></div></td>
+								</tr>
+							</table>
+					</article> -->
+			</section>
+	
+		<aside id="aside">
+			<ul id="menu">
+				<li number ="0">
+					Qualities
+					<br>
+					<div id="Sublist">
+						<txt>&&nbspMotivation</txt>
+					</div>
+				</li>
+				<li number ="1">
+					Languages
+					<br>
+					<div id="Sublist">
+						<txt>Programming&nbsp&&nbspSpoken</txt>
+					</div>
+				</li>
+				<li number ="2">
+					IT&nbspSkills
+					<br>
+					<div id="Sublist">
+						<txt>Software&nbsp&&nbspSystems</txt>
+					</div>
+				</li>
+				<li number ="3">
+					Education
+					<br>
+					<div id="Sublist">
+						<txt>&&nbspCertifications</txt>
+					</div>
+				</li>
+				<li number ="8" id = "phs"><br></li>
+				<li number ="9" id = "save">
+					Save
+					<br>
+					<div id="Sublist">
+						<txt>Contact</txt>
+					</div>
+				</li>
+				<li number ="10">
+					Quit
+				</li>
+			</ul>
+
+			<ul id="time">
+				<li>Time<span id ="currentTime">0<txt id = "colon">:</txt>58:26</span></li>
+				<li>Gil<span id ="gilAmount">378</span></li>
+			</ul>
+		</aside>
+
+		<footer id="footer">
+		 Utrecht, Nederland
+		</footer>
+      
+	</div>	
+    <script src = "MenuFF7.js"> </script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
 </html>
