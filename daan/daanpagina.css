@@ -23,6 +23,7 @@
 
 h5{
     text-align: center;
+    color: #5A5A5A;
 }
 
 #vaardighedentekst{
@@ -84,3 +85,15 @@ h5{
     background-color: #8A8AFF;
 }
 
+#kopblokrechts{
+    color: #2dc9de !important;
+
+}
+
+li {
+    color:#5A5A5A;
+}
+
+h7{
+    color:#5A5A5A;
+}
