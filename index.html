@@ -5,54 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello world!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link href="index.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel="stylesheet" type="text/css" />
 
-    <div class="container">
-    <div class="row">
-      <div class="col-lg">
-        Ter info: one of three columns
-      </div>
-      <div class="col-lg">
-        Ter info: one of three columns
-      </div>
-      <div class="col-lg-4">
-        <div id="overhetteam">
-          <p>
-            <h5>Projectgroep</h5>
-            <h7>
-              Deze projectgroep bestaat uit verschillende trainees en is ontstaan uit het de Young Capital NEXT bootcamp, generatie januari 2023. 
-              Tijdens de betreffende bootcamp heeft elke trainee gewerkt vanuit een specifieke uitstroomrichting. 
-              Zie hieronder een overzicht van de uitstroomrichting per trainee:
-              <br>
-              <br><b>Michael Ibsen:</b> uitstroomprofiel DevOps 
-              <br>
-              <br>
-              <b>David Redder:</b> uitstroomprofiel DevOps 
-              <br>
-              <br>
-              <b>Ruben Soeters:</b> uitstroomprofiel DevOps 
-              <br>
-              <br>
-              <b>Lindsay Groenewold:</b> uitstroomprofiel LowCode 
-              <br>
-              <br>
-              <b>Kevin van Buuren:</b> uitstroomprofiel Big Data 
-              <br>
-              <br>
-              <b>Vossa Varkevisser:</b> uitstroomprofiel Informatie-analist 
-              <br>
-              <br>
-              <b>Daan Groen:</b> uitstroomprofiel Informatie-analist 
-              </h7>
-          </p>      
-      </div>
-      </div>
+    <style type="text/css">
+      html,
+      body {
+        height: 100%;
+      }
+
+      .btn-circle.btn-xl {
+        width: 200px;
+        height: 200px;
+        padding: 20px 20px;
+        border-radius: 200px;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      .btn-circle.btn-md {
+        width: 120px;
+        height: 120px;
+        padding: 7px 10px;
+        border-radius: 100px;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      .container-fluid {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .names-container {
+        height: 10%;
+        width: 100%;
+      }
+      .names-padding {
+        margin: 1%;
+        border-radius: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <button type="button" class="btn btn-primary btn-circle btn-xl">
+        Hey there, meet our team!
+      </button>
     </div>
-  </div>
-  
+    <div class="container-fluid names-container">
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        Ruben
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        Daan
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        Linds
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        Michael
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        Kevin
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        David
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        Vossa
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-circle btn-md names-padding"
+      >
+        Red
+      </button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
