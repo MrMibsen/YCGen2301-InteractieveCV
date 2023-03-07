@@ -14,23 +14,23 @@
     <body>
         <div id="wrapper">
             <div id="header">
-            <nav class="navbar navbar-expand-lg" class="nav navbar-nav navbar-right">
-                
-                <ul class="navbar-nav navbar-custom">
-                    <li class="navbar-item">
-                        <a href="#modalOne" class="nav-link navbar" data-toggle="modal" data-target="#modalOne">&#10004; Gratis bezorging vanaf 8:00</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#modalOne" class="nav-link navbar" data-toggle="modal" data-target="#modalTwo">&#10004; Vandaag besteld, morgen in huis</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="snake.html" class="nav-link navbar" class="nav-link">&#10004; Speel Snake!</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="motivatie.html" class="nav-link"><img id="cart" src="img/Winkelmand.png" width="40px" height="40px"></a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="navbar navbar-expand-lg" class="nav navbar-nav navbar-right">
+                    
+                    <ul class="navbar-nav navbar-custom">
+                        <li class="navbar-item">
+                            <a href="#modalOne" class="nav-link navbar" data-toggle="modal" data-target="#modalOne">&#10004; Gratis bezorging vanaf 8:00</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#modalOne" class="nav-link navbar" data-toggle="modal" data-target="#modalTwo">&#10004; Vandaag besteld, morgen in huis</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="snake.html" class="nav-link navbar" class="nav-link">&#10004; Speel Snake!</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="motivatie.html" class="nav-link" title="Klik hier voor mijn motivatie!"><img id="cart" src="img/Winkelmand.png" width="40px" height="40px"></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             
             <div class="modal fade" id="modalOne">
@@ -76,18 +76,18 @@
                     <div class="col-sm resp2">Groningen</div>
                 </div>
                 <div class="row">
-                    <div class="col-sm resp">Adres:</div>
-                    <div class="col-sm resp2">Bouriciusstraat 4<br>
-                            6814 CW<br>
-                            Arnhem</div>
+                    <div class="col-sm resp">Talenkennis:</div>
+                    <div class="col-sm resp2">Nederlands (moedertaal)<br>
+                    Engels (Goed)<br>
+                    Zweeds (Goed)<br>
+                    Duits (Passief)</div>
                 </div>
                 <div class="row">
-                    <div class="col-sm resp">Telefoonnummer:</div>
-                    <div class="col-sm resp2">06 419 217 50</div>
-                </div>
-                <div class="row">
-                    <div class="col-sm resp">E-mailadres:</div>
-                    <div class="col-sm resp2">vossavarkevisser<br>@gmail.com</div>
+                    <div class="col-sm resp">Certificaten:</div>
+                    <div class="col-sm resp2">EXIN Agile Scrum Foundation<br>
+                            ISTQB&#169;: Certified Tester Foundation Level (CTFL)<br>
+                            IREB&#169;: Certified Professional for Requirements Engineering - Foundation Level<br>
+                            Udemy: Business Analysis Fundamentals - 2022</div>
                 </div>
                 <div class="row">
                     <div class="col-sm"><input type="button" id="darkButton" value="Dark mode" onclick="darkMode()"> </div>
@@ -96,7 +96,7 @@
             
             <div id="foto" class="column col-xs-4">
                     <input type="button" id="button" value="Klik hier voor foto!" onclick="showImage()"/>
-                    <img id="loadingImage" src="img/pasfoto.JPG" width="638px" height="851px" style="visibility:hidden">
+                    <img id="loadingImage" src="img/pasfoto.JPG" width="673px" height="898px" style="visibility:hidden">
                     <div id="nee">Vind je me leuk?</div>
             </div>
         </div>
@@ -106,12 +106,16 @@
                     <div class="flip-card col-lg-4" id="card1">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <h1>Teamplayer</h1>
+                                <h1>Zelfstandig</h1>
                             </div>
                             <div class="flip-card-back">
                                 <p>
-                                    Bootcamp project:<br>
-                                    Hotelreserveringssysteem gemaakt met 6 anderen
+                                    C# Star Wars game:<br>
+                                    Om mezelf C# en Object Oriented Programming (OOP) aan te leren, heb ik een verhaalgebaseerd
+                                    klikspelletje in Visual Studio gemaakt. Je speelt als Luke, onderweg kun je quests voltooien,
+                                    Storm Troopers verslaan, en vechten tegen vijanden zoals Jabba the Hut en Darth Vader.
+                                    Ik heb hierbij geleerd om zelfstandig te leren en problemen op te lossen, en niet op te geven 
+                                    als ik iets niet snap.
                                 </p>
                             </div>
                         </div>
@@ -124,8 +128,12 @@
                             </div>
                             <div class="flip-card-back">
                                 <p>
-                                    Bootcamp project:<br>
-                                    Hotelreserveringssysteem gemaakt met 6 anderen
+                                    IT bootcamp project:<br>
+                                    Hotelreserveringssysteem gemaakt met 6 andere trainees. 
+                                    We hebben gewerkt in Scrum sprints van telkens een week, waarin we het tussentijdse product 
+                                    valideerden met de klant. Mijn rol in dit project was om de klantwens te vertalen naar user stories,
+                                    en een groot deel van de front-end in elkaar te zetten.
+                                    Klik hier voor het resultaat!
                                 </p>
                             </div>
                         </div>
@@ -154,8 +162,8 @@
                         <div class="btn-group col-sm-12" role="group">
                         <input type="button" class="tablinks col-md-3" value="Opleidingen" onclick="openTab(event, 'Opleidingen')">
                         <input type="button" class="tablinks col-md-3" value="Ervaring" onclick="openTab(event, 'Werkervaring')">
-                        <input type="button" class="tablinks col-md-3" value="Wat ik kan" onclick="openTab(event, 'kan')">
-                        <input type="button" class="tablinks col-md-3" value="Wat ik leer" onclick="openTab(event, 'leer')">
+                        <input type="button" class="tablinks col-md-3" value="Hardskills" onclick="openTab(event, 'Hardskills')">
+                        <input type="button" class="tablinks col-md-3" value="Softskills" onclick="openTab(event, 'Softskills')">
                         </div>
                     </div>
 
@@ -216,17 +224,19 @@
                         </table>
                     </div>
 
-                    <div id="kan" class="tabcontent">  
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>Bootstrap</p>
+                    <div id="Hardskills" class="tabcontent">  
+                        <p>Responsive webdesign: ik kan werken met HTML, CSS en Bootstrap. Daarmee heb ik ook deze CV gemaakt: probeer het eens uit op mobiel ;-)</p>
+                        <p>JavaScript: ik ken de basis van JavaScript en kan websites interactief maken. Ook ben ik me aan het verdiepen in jQuery, een JavaScript library.</p>
+                        <p>SQL &amp; PHP: op dit moment leer ik de basis van SQL en PHP via w3schools. Ik heb basiskennis van phpMyAdmin.</p>
+                        <p>C#: ik heb de C# cursus van Codecademy afgerond, en heb een verhaalgebaseerd klikspelletje (thema: Star Wars) gemaakt in Visual Studio.</p>
+                        <p>Overig: Google Workspace, Visual Studio Code, Excel.</p>
                     </div>
 
-                    <div id="leer" class="tabcontent">
-                        <p>jQuery</p>
-                        <p>PHP</p>
-                        <p>C#</p>
+                    <div id="Softskills" class="tabcontent">
+                        <p>Heldere communicatie: </p>
+                        <p>Geduldig: </p>
+                        <p>Eerlijk: </p>
+                        <p>Open-minded: </p>
                     </div>
                 </div>  
             </div>  
