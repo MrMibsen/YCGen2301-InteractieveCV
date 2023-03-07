@@ -1,0 +1,29 @@
+/* CSS voor index.html voor interactieve CV pagina */
+
+/* div over het team */
+#overhetteam {
+    padding: 10px;
+    background-color: #2dc9de;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.row {
+    margin: 25px 10px 25px 10px;
+}
+
+.rounded-circle {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+#allefotos {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
