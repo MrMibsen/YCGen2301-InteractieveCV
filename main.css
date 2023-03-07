@@ -8,8 +8,18 @@
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    margin-right: auto;
-    margin-left: auto;
-    
-    
+}
+
+.container-fluid {
+    margin-top: 50px;
+}
+
+.rounded-circle {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 30px;
+}
+
+#middencol {
+    background-color: pink;
 }
