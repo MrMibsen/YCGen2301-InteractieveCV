@@ -65,6 +65,10 @@ body{
 	position:relative; left:12px;
 }
 
+#bodyheader{
+	font: 35px arial;
+}
+
 #group{
    text-align: left;
    color:white;
