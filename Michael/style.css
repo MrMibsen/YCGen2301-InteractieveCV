@@ -62,7 +62,7 @@ body{
 	
 #Sublist{
 	font: 20px arial;
-	position:relative; left:12px;
+	position:relative; left:0px;
 }
 
 #bodyheader{
@@ -252,10 +252,13 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 #info{
 	text-align: left;
 	display:block;
-	margin-left: -100px;
+	margin-left: -147px;
+	margin-top: -30px;
+	margin-right: -400px;
 	animation-name: appearing2;
 	border-collapse: separate;
   	border-spacing: 160px 0;
+	padding: 28px;
 }
 
 #firstName, #secondName, #thirdName{
