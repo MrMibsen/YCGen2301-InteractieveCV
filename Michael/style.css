@@ -16,7 +16,7 @@ h1{
 
 h2{
 	font: bold 25px arial;
-	margin-left: 100px;
+	margin-left: 0px;
 	color:black;
 }
 
@@ -67,6 +67,12 @@ body{
 
 #bodyheader{
 	font: 35px arial;
+	text-align: left;
+}
+
+.tableheader{
+	font: 35px arial;
+	
 }
 
 #group{
@@ -239,13 +245,17 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 	color:#20B2AA;  	
 }
 
-
+.extra{
+	margin-left: 60px;
+}
 
 #info{
-	text-align: center;
-	margin-left: -50px; 
+	text-align: left;
 	display:block;
+	margin-left: -100px;
 	animation-name: appearing2;
+	border-collapse: separate;
+  	border-spacing: 160px 0;
 }
 
 #firstName, #secondName, #thirdName{

@@ -125,6 +125,18 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
 
 }else if(e.keyCode == 13 && tokenMenu == 0){
     showMotivation();
+}else if(e.keyCode == 13 && tokenMenu == 1){
+    showLanguages();
+}else if(e.keyCode == 13 && tokenMenu == 2){
+    showITskills();
+}else if(e.keyCode == 13 && tokenMenu == 3){
+    showEducation();
+}else if(e.keyCode == 13 && tokenMenu == 4){
+    showProjects();
+}else if(e.keyCode == 13 && tokenMenu == 6){
+    showContact();
+}else if(e.keyCode == 13 && tokenMenu == 7){
+    goBackToIndex();
 }else if((e.keyCode == 72 || e.keyCode == 104) && tokenHide){
     tokenHide = false;
     extras.forEach(extra => {
@@ -140,7 +152,57 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
   move.play();
 }
 }
-
+function showMotivation() {
+    document.getElementById("motivation").style.display = "block";
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("itskills").style.display = "none";
+    document.getElementById("education").style.display = "none";
+    document.getElementById("projects").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+}
+function showLanguages() {
+    document.getElementById("languages").style.display = "block";
+    document.getElementById("motivation").style.display = "none";
+    document.getElementById("itskills").style.display = "none";
+    document.getElementById("education").style.display = "none";
+    document.getElementById("projects").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+}
+function showITskills() {
+    document.getElementById("itskills").style.display = "block";
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("motivation").style.display = "none";
+    document.getElementById("education").style.display = "none";
+    document.getElementById("projects").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+}
+function showEducation() {
+    document.getElementById("education").style.display = "block";
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("itskills").style.display = "none";
+    document.getElementById("motivation").style.display = "none";
+    document.getElementById("projects").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+}
+function showProjects() {
+    document.getElementById("projects").style.display = "block";
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("itskills").style.display = "none";
+    document.getElementById("education").style.display = "none";
+    document.getElementById("motivation").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+}
+function showContact() {
+    document.getElementById("contact").style.display = "block";
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("itskills").style.display = "none";
+    document.getElementById("education").style.display = "none";
+    document.getElementById("motivation").style.display = "none";
+    document.getElementById("projects").style.display = "none";
+}
+function goBackToIndex() {
+    window.location="https://black-glacier-0ea2ee403.2.azurestaticapps.net";
+}
 //Prepents the hand and shadow icons.
 function selection(tokenMenu){
 
@@ -282,9 +344,7 @@ switch(archive){
 return(file);
 }
 
-function showMotivation() {
-    document.getElementById("motivation").style.display = "block";
-}
+
 
 
 //Function that changes all the paramethers on the screen depends on the file loaded.
