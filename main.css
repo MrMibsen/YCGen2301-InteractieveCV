@@ -10,16 +10,20 @@
     border-color: black;
 }
 
-.container-fluid {
-    margin-top: 50px;
+.row {
+    margin: 25px 10px 25px 10px;
 }
 
 .rounded-circle {
     max-width: 200px;
     max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
     margin-bottom: 30px;
 }
 
-#middencol {
-    background-color: pink;
+#allefotos {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
