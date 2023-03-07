@@ -123,6 +123,8 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
     extra.style.opacity = "0";
   });
 
+}else if(e.keyCode == 13 && tokenMenu == 0){
+    showMotivation();
 }else if((e.keyCode == 72 || e.keyCode == 104) && tokenHide){
     tokenHide = false;
     extras.forEach(extra => {
@@ -279,6 +281,11 @@ switch(archive){
 }
 return(file);
 }
+
+function showMotivation() {
+    document.getElementById("motivation").style.display = "block";
+}
+
 
 //Function that changes all the paramethers on the screen depends on the file loaded.
 function loadScreen(file){

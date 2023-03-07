@@ -183,6 +183,7 @@ cursor:pointer;
 	position: relative;
 	width: 187.5px; 
 	height: 145px;
+	margin-left: -26px;
 	overflow: hidden;
 }
 
@@ -207,7 +208,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 .statsTable{
 	display: inline-block;
 	position: relative;
-	margin: 0px 0px 0px -20px;
+	margin: 0px 0px 0px -40px;
 	border-spacing: 0px 0px;
 	line-height: 30px;
 	border-collapse: collapse;
@@ -231,8 +232,17 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 	color:#20B2AA;  	
 }
 
+
+
+#info{
+	text-align: center;
+	margin-left: -50px; 
+	display:block;
+	animation-name: appearing2;
+}
+
 #firstName, #secondName, #thirdName{
-	height: 45px;	
+	height: 50px;	
 }
 
 #firstLevel, #secondLevel, #thirdLevel{
