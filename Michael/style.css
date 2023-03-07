@@ -16,7 +16,7 @@ h1{
 
 h2{
 	font: bold 25px arial;
-	margin-left: 100px;
+	margin-left: 0px;
 	color:black;
 }
 
@@ -62,7 +62,17 @@ body{
 	
 #Sublist{
 	font: 20px arial;
-	position:relative; left:12px;
+	position:relative; left:0px;
+}
+
+#bodyheader{
+	font: 35px arial;
+	text-align: left;
+}
+
+.tableheader{
+	font: 35px arial;
+	
 }
 
 #group{
@@ -70,9 +80,16 @@ body{
    color:white;
 }
 
+#soundcloud{
+	margin: 750px 0px 0px 0px;
+	animation-name: movingUp;
+	 animation-duration: 1.5s;
+	 animation-timing-function: ease;
+}
+
 #controls{
 	position: absolute;
-	margin: -120px 0px 0px 1150px;
+	margin: -220px 0px 0px 828px;
 	animation-name: falling;
 	 animation-delay: 2s;
      animation-duration: 1s;
@@ -179,6 +196,7 @@ cursor:pointer;
 	position: relative;
 	width: 187.5px; 
 	height: 145px;
+	margin-left: -26px;
 	overflow: hidden;
 }
 
@@ -203,7 +221,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 .statsTable{
 	display: inline-block;
 	position: relative;
-	margin: 0px 0px 0px -20px;
+	margin: 0px 0px 0px -40px;
 	border-spacing: 0px 0px;
 	line-height: 30px;
 	border-collapse: collapse;
@@ -227,8 +245,24 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 	color:#20B2AA;  	
 }
 
+.extra{
+	margin-left: 60px;
+}
+
+#info{
+	text-align: left;
+	display:block;
+	margin-left: -147px;
+	margin-top: -30px;
+	margin-right: -400px;
+	animation-name: appearing2;
+	border-collapse: separate;
+  	border-spacing: 160px 0;
+	padding: 28px;
+}
+
 #firstName, #secondName, #thirdName{
-	height: 45px;	
+	height: 50px;	
 }
 
 #firstLevel, #secondLevel, #thirdLevel{
