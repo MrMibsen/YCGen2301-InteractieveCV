@@ -11,39 +11,92 @@
     <script src="jquery-3.6.3.min.js"></script>
 </head>
 <body>
-    <!-- HTML Navbar -->
-    <nav class="row navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light bg-light pb-5 mb-5">
-        <div class="col-lg-12" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="navbar-brand"><p id="tekstnavbar"><b>Daan Groen</b></p><span class="sr-only"></span></li>
-                <li class="nav-item active">
-                  <a href="daanpagina.html"><button type="button" class="btn btn-primary" id="navknop">Home</button></a>
-                </li>
-                <br>
-                <li class="nav-item">
-                  <a href="projectrol.html"><button type="button" class="btn btn-primary" id="navknop">Bootcamp 2023</button></a>
-                </li>
-                <li class="nav-item">
-                  <a href="daanervaring.html"><button type="button" class="btn btn-primary" id="navknop">HR-ervaring</button></a>
-                </li>
-                <li class="nav-item">
-                  <a href="watzoekik.html"><button type="button" class="btn btn-primary" id="navknop">Interesses</button></a>
-          </ul>
-      </div>
-      </nav>
+   <!-- HTML Navbar -->
+     <nav class="row navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light bg-light pb-5 mb-5">
+      <div class="col-lg-12" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="navbar-brand"><p id="tekstnavbar"><b>Daan Groen</b></p><span class="sr-only"></span></li>
+              <li class="nav-item active">
+                <a href="index.html"><button type="button" class="btn btn-primary" id="navknop">CV-overzicht</button></a>
+              </li>
+              <br>
+              <li class="nav-item">
+                <a href="daanpagina.html"><button type="button" class="btn btn-primary" id="navknop">Home | CV Daan</button></a>
+              <li class="nav-item">
+                <a href="projectrol.html"><button type="button" class="btn btn-primary" id="navknop">Bootcamp 2023</button></a>
+              </li>
+              <li class="nav-item">
+                <a href="daanervaring.html"><button type="button" class="btn btn-primary" id="navknop">Ervaring en interesses</button></a>
+              </li>
+        </ul>
+    </div>
+    </nav>
+      
       <div class="container">
         <div class="row">
           <div class="col">
-            Pagina over eerdere ervaring
-          </div>
-          <div class="col">
+            <div id="positiehrtaken">
+              <h5><b>Voorbeelden van ervaring als HRM-adviseur</b></h5>
             <img id="hrtaken" src="hrtaken.jpg">
+            </div>
           </div>
           <div class="col">
-            Column
-          </div>
+            <h5><b>Hier liggen mijn interesses</b></h5><br><br>
+            <button class="tablink" onclick="openPage('Home', this, '#2dc9de')">Analyses</button>
+              <button class="tablink" onclick="openPage('News', this, 'gray')" id="defaultOpen">Klantbehoefte</button>
+              <button class="tablink" onclick="openPage('Contact', this, '#2dc9de')">Projecten</button>
+              <button class="tablink" onclick="openPage('About', this, 'gray')">Adviseren</button>
+                  <div id="Home" class="tabcontent">
+                    <h3>Analyses en data</h3>
+                    <p>Het werken met rapportages, verslagen, cijfers, analyses en systemen om zo tot inzichten te komen die kunnen 
+                      bijdragen aan efficiëntie, nieuwe (business) inzichten en het hard maken van onderbuikgevoelens. <br><br>
+                      Werken met data- en dashboards</p>
+                  </div>
+
+                  <div id="News" class="tabcontent">
+                    <h3>Klantbehoeftes vertalen</h3>
+                    <p>Klantbehoeftes (business) in kaart brengen, afstemmen en vertalen naar concrete voorstellen richting ICT via 
+                      bijvoorbeeld visualisatie/concepten.
+                      </p>
+                  </div>
+
+                  <div id="Contact" class="tabcontent">
+                    <h3>Projectmatig werken</h3>
+                    <p>Projectmatig werken (kan in verschillende rollen, uiteenlopend van projectleider tot projectmedewerker).<br><br>
+                      Afwisseling tussen samenwerken en eigen taken.
+                    </p>
+                  </div>
+
+                  <div id="About" class="tabcontent">
+                    <h3>Adviseren</h3>
+                    <p>Adviseren op basis van rapportages, analyses, wensen, inzichten. </p>
+                  </div>
+            </div>
         </div>
-      </div>
-     
 </body>
+<script>
+  function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 </html>
