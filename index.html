@@ -36,48 +36,63 @@
             </h7><br>
             <h7><b>Het proces: van scratch naar product</b></h7><br>
             <h7> 
-              Vanuit de verschillende projectrollen zijn we gestart met het project. Globaal gezien hebben we de volgende stappen doorlopen: <br>
-              <ul>
-                <li>Informatie-analyse en samenwerking</li>
-                  <ul>
-                    <li>Klantgesprekken, requirements in kaart brengen, wireframes, UML-klassediagram</li>
-                    <li>Samenwerking inrichten, o.a. via GitHub en Trello</li>
-                  </ul>
-              
-                <li>Backend</li>
-                  <ul>
-                    <li>Database: van lokaal opgezet (SQL) naar online deployment</li>
-                    <li>Azure Web App (PaaS) - Linux</li>
-                    <li>Programmeren via Python en Flask</li>
-                  </ul>
-              
-                <li>Frontend</li>
-                  <ul>
-                    <li>Gedeployed via Static Web App</li>
-                    <li>HTML (inhoud) en CSS (styling) van de site</li>
-                    <li>Functionele werking van de site via JavaScript en HTML</li>
-                  </ul>
-
-                <li>LowCode</li>
-                  <ul>
-                    <li>Mendix, inrichten domain models en microflows</li>
-                    <li>Eigen database voor LowCode opgesteld voor hotelreserveringssysteem</li>
-                    <li>Via bouwblokken stap voor stap het hotelreserveringssysteem gemaakt</li>
+              Vanuit de verschillende projectrollen zijn we gestart met het project. Globaal gezien hebben we de volgende stappen doorlopen: <br><br>
+              <button type="button" class="collapsible"> Informatie-analyse en samenwerking </button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Klantgesprekken, requirements in kaart brengen, wireframes, UML-klassediagram</li>
+                  <li>Samenwerking inrichten, o.a. via GitHub en Trello</li>
                 </ul>
-
-                <li>(Big) Data-onderzoek</li>
+              </p>
+              </div>
+              <button type="button" class="collapsible">Backend</button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Database: van lokaal opgezet (SQL) naar online deployment</li>
+                  <li>Azure Web App (PaaS) - Linux</li>
+                  <li>Programmeren via Python en Flask</li>
+                </ul>
+              </p>
+              </div>
+              <button type="button" class="collapsible">Frontend</button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Deployment via Static Web App</li>
+                  <li>HTML (inhoud) en CSS (styling) van de site</li>
+                  <li>Interactiviteit van de site ingebouwd via JavaScript</li>
+                </ul>
+              </p>
+              </div>
+              <button type="button" class="collapsible">LowCode</button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Mendix, inrichten domain models en microflows</li>
+                  <li>Eigen database voor LowCode opgesteld voor hotelreserveringssysteem</li>
+                  <li>Via bouwblokken stap voor stap het hotelreserveringssysteem gemaakt</li>
+              </ul>
+              </p>
+              </div>
+              <button type="button" class="collapsible">(Big)Data-onderzoek</button>
+              <div class="content">
+              <p>
                 <ul>
                   <li>Onderzoeksvraag: welke factoren zijn aan te wijzen als annuleringsindicatoren? Hoe kan dit inzichtelijk worden gemaakt?</li>
                   <li>Aanpak: met behulp van algoritmen de factoren achterhalen. Om deze vervolgens verder te onderzoeken.</li>
                   <li>9 fases doorlopen van data-analyse</li>
                   <li>Aanbevelingen en conclusies</li>
               </ul>
+              </p>
+              </div>
               </ul>
 
-            </h7>
+            </h7><br>
             <h7><b>Het resultaat</b></h7><br>
-            Op de pagina ''Hotelreserveringssysteem'' kun je meer informatie vinden over de verschillende resultaten en opgeleverde producten.<br>
-            <b><u>HIER NOG EEN KNOP ZETTEN? </u></b>
+            Op de pagina ''Hotelreserveringssysteem'' kun je meer informatie vinden over de verschillende resultaten en opgeleverde producten.<br><br>
+            <a href="hotelprojectpagina.html"><button type="button" class="btn btn-primary" id="resultaatknop"><b>Bekijk het resultaat!</b></button></a>
             </h7>
           </p>
         </div>
@@ -131,6 +146,24 @@
       </div>
     </div>
   </div>
-  
   </body>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
