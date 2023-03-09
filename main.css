@@ -1,102 +1,94 @@
 /* CSS voor index.html voor interactieve CV pagina */
-
+b, li, ul, h7, h5 {
+  color: #104b8d;
+}
 /* div over het team */
 #overhetteam {
-    padding: 10px;
-    background-color: #2dc9de;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-}
-
-.row {
-    margin: 25px 10px 25px 10px;
+  padding: 10px;
+  background-color: #2dc9de;    
+  border-radius: 25px;
+  border-style: solid;    
+  border-width: 2px;
+  border-color: black;
 }
 
 /* div vak met foto's */
 .rounded-circle {
-<<<<<<< HEAD
-    margin-bottom: 30px;
-=======
-  margin-bottom: 30px;
-  position: relative;
-  min-width: 200px;
   max-width: 200px;
-  min-height: 200px;
   max-height: 200px;
-  object-fit: contain;
->>>>>>> main
 }
 
 #allefotos {
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 25px;
 }
 
 /* div info over project */
 #infoproject {
-    padding: 10px;
-    background-color: #2dc9de;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
+  background-color: #2dc9de;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
 }
 
 .collapsible {
-    background-color: #2dc9de;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    font-size: 15px;
-    border: 2px;
+  background-color: #2dc9de;
+  color: #336bac;
+  cursor: pointer;
+  padding: 0px 0px 5px 0px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  border: 2px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) / */
 .active, .collapsible:hover {
-    background-color: #ccc;
-  }
+  background-color: #3eb2c2;
+}
   
   /* / Style the collapsible content. Note: hidden by default */
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #ffffff;
-  }
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #3eb2c2;
+}
   
-  .qualities-section {
-    text-align: center;
-  }
+.qualities-section {
+  text-align: center;
+}
 
-  #resultaatknop{
-    background-color:#ffffff; 
-    color: black;
-    border-color: black;
-    border-width: 3px;
+#resultaatknop {
+  background-color:#ffffff; 
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  margin-top: 10px;
+}
 
-<<<<<<< HEAD
-  }
-=======
-#hotelfoto{
-  max-width:100%;
-  max-height:100%;
+#resultaatknop:hover {
+  background-color:#9e9cb3; 
+}
+
+#hotelfoto {
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   margin: 20px 0px 20px 0px;
 }
 
-#caption{
+#caption {
   text-align: center;
   color: #0d0983;
   margin-top: -15px;
 }
 
-#escapefoto{
+#escapefoto {
   max-width:100%;
   max-height:100%;
   object-fit: contain;
@@ -104,7 +96,8 @@
 }
 
 .zoom {
-  padding: 50px;
+  padding: 10px;
+  margin-top: 50px !important;
   transition: transform .2s; /* Animation */
   margin: 0 auto;
 }
@@ -112,4 +105,3 @@
 .zoom:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
->>>>>>> main
