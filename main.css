@@ -16,7 +16,17 @@
 
 /* div vak met foto's */
 .rounded-circle {
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+  margin-bottom: 30px;
+  position: relative;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: contain;
+>>>>>>> main
 }
 
 #allefotos {
@@ -70,4 +80,36 @@
     border-color: black;
     border-width: 3px;
 
+<<<<<<< HEAD
   }
+=======
+#hotelfoto{
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+  margin: 20px 0px 20px 0px;
+}
+
+#caption{
+  text-align: center;
+  color: #0d0983;
+  margin-top: -15px;
+}
+
+#escapefoto{
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+  margin: 20px 0px 20px 0px;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+>>>>>>> main
