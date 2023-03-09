@@ -1,0 +1,87 @@
+/* div over het team */
+#overhetteam {
+    padding: 10px;
+    background-color: #2dc9de;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+
+#wireframekameroverzicht{
+    margin-bottom: 200px;
+}
+
+#wireframemember{
+    float:right;
+    height: 75%;
+}
+
+/* navbar */
+.navbar {
+    background-image: url("universe.jpg") !important;
+    background-repeat: no-repeat !important;
+
+}
+
+#navknop{
+    background-color: #2dc9de !important;
+    border-color: #2dc9de !important;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.navbar a {
+    color: 	#5A5A5A !important;
+    font-size: 17px;
+}
+
+#tekstnavbar{
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 75 !important%;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 75%;
+  }
+  
+  #Home {background-color: #2dc9de;}
+  #News {background-color: grey;}
+  #Contact {background-color: #2dc9de;}
+  #About {background-color: grey}
+
