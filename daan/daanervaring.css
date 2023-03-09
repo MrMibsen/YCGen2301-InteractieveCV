@@ -1,8 +1,11 @@
 #hrtaken{
-    width: 800px;
-    
+    width: 750px;
 }
 
+#positiehrtaken{
+    float:left;
+    justify-content: left;
+}
 /* navbar */
 .navbar {
     background-image: url("universe.jpg");
@@ -33,3 +36,39 @@
     margin-top: 25px;
     margin-bottom: 0px;
 }
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 75 !important%;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 75%;
+  }
+  
+  #Home {background-color: #2dc9de;}
+  #News {background-color: grey;}
+  #Contact {background-color: #2dc9de;}
+  #About {background-color: grey}
