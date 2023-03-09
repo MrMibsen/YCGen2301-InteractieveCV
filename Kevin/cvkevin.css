@@ -1,0 +1,14 @@
+#bloklinks {
+    padding: 10px;
+    background-color: #8bde2d;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#duimomhoog{
+    height: 200px;
+}
