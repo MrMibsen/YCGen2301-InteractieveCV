@@ -14,16 +14,69 @@
     margin: 25px 10px 25px 10px;
 }
 
+/* div vak met foto's */
 .rounded-circle {
-    max-width: 200px;
-    max-height: 200px;
-    min-width: 200px;
-    min-height: 200px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #allefotos {
     border-style: solid;
     border-color: black;
-    border-width: 1px;
+    border-width: 3px;
+    border-radius: 25px;
+}
+
+/* div info over project */
+#infoproject {
+    padding: 10px;
+    background-color: #2dc9de;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.collapsible {
+    background-color: #2dc9de;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    border: 2px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) / */
+.active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* / Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  .qualities-section {
+    text-align: center;
+  }
+
+  #resultaatknop {
+    background-color:#ffffff; 
+    color: black;
+    border-color: black;
+    border-width: 3px;
+  }
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
