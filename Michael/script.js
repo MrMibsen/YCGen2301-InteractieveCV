@@ -209,6 +209,18 @@ function showContact() {
 function goBackToIndex() {
     window.location="https://black-glacier-0ea2ee403.2.azurestaticapps.net";
 }
+function goToHotelFront() {
+    window.location="https://github.com/R-Soeters/frontend_hotel";
+}
+function goToHotelBack() {
+    window.location="https://github.com/Vossa91/YCHotelBackend";
+}
+function goToCV() {
+    window.location="https://github.com/MrMibsen/YCGen2301-InteractieveCV";
+}
+function goToQuiz() {
+    window.location="https://github.com/MrMibsen/Quizje";
+}
 //Prepents the hand and shadow icons.
 function selection(tokenMenu){
 

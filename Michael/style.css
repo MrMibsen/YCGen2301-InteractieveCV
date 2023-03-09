@@ -27,6 +27,10 @@ h1{
 	color: black;
 }
 
+#Orchestrion{
+	margin-left: -20px;
+}
+
 h2{
 	font: bold 25px arial;
 	margin-left: 0px;
@@ -97,6 +101,12 @@ body{
 	font: 30px arial;
 	text-align: left;
 	margin-top: -10px;
+	margin-left: 30px;
+}
+#bodyheader3{
+	font: 30px arial;
+	text-align: left;
+	margin-top: -5px;
 	margin-left: 30px;
 }
 
