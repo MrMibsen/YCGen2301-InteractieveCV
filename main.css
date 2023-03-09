@@ -16,11 +16,7 @@
 
 /* div vak met foto's */
 .rounded-circle {
-    max-width: 200px;
-    max-height: 200px;
-    min-width: 200px;
-    min-height: 200px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #allefotos {
@@ -68,12 +64,11 @@
     text-align: center;
   }
 
-  #resultaatknop{
+  #resultaatknop {
     background-color:#ffffff; 
     color: black;
     border-color: black;
     border-width: 3px;
-
   }
 
 .zoom {
