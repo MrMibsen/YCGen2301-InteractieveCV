@@ -16,7 +16,7 @@
 
 /* div vak met foto's */
 .rounded-circle {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 #allefotos {
@@ -64,19 +64,10 @@
     text-align: center;
   }
 
-  #resultaatknop {
+  #resultaatknop{
     background-color:#ffffff; 
     color: black;
     border-color: black;
     border-width: 3px;
+
   }
-
-.zoom {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
