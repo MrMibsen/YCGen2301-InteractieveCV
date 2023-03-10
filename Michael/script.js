@@ -133,6 +133,8 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
     showEducation();
 }else if(e.keyCode == 13 && tokenMenu == 4){
     showProjects();
+}else if(e.keyCode == 13 && tokenMenu == 5){
+    showQuest();
 }else if(e.keyCode == 13 && tokenMenu == 6){
     showContact();
 }else if(e.keyCode == 13 && tokenMenu == 7){
@@ -201,6 +203,15 @@ function showContact() {
     document.getElementById("contact").style.display = "block";
     document.getElementById("languages").style.display = "none";
     document.getElementById("landingbio").style.display = "none";
+    document.getElementById("itskills").style.display = "none";
+    document.getElementById("education").style.display = "none";
+    document.getElementById("motivation").style.display = "none";
+    document.getElementById("projects").style.display = "none";
+}
+function showQuest() {
+    document.getElementById("contact").style.display = "none";
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("landingbio").style.display = "block";
     document.getElementById("itskills").style.display = "none";
     document.getElementById("education").style.display = "none";
     document.getElementById("motivation").style.display = "none";
