@@ -149,7 +149,7 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
   selection(tokenMenu);
   move.play();
 }else if(e.keyCode == 40){
-  tokenMenu < 10 ? tokenMenu != 7 ? tokenMenu += 1: document.querySelector("#phs").innerHTML== "PHS"? tokenMenu +=1:tokenMenu =  9 : tokenMenu = 0; 
+  tokenMenu < 10 ? tokenMenu != 7 ? tokenMenu += 1: document.querySelector("#phs").innerHTML== "PHS"? tokenMenu +=1:tokenMenu =  8 : tokenMenu = 0; 
   selection(tokenMenu);
   move.play();
 }
