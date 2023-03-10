@@ -135,9 +135,9 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
     showProjects();
 }else if(e.keyCode == 13 && tokenMenu == 5){
     showQuest();
-}else if(e.keyCode == 13 && tokenMenu == 6){
-    showContact();
 }else if(e.keyCode == 13 && tokenMenu == 7){
+    showContact();
+}else if(e.keyCode == 13 && tokenMenu == 8){
     goBackToIndex();
 }else if((e.keyCode == 72 || e.keyCode == 104) && tokenHide){
     tokenHide = false;
@@ -220,18 +220,7 @@ function showQuest() {
 function goBackToIndex() {
     window.location="https://black-glacier-0ea2ee403.2.azurestaticapps.net";
 }
-function goToHotelFront() {
-    window.location="https://github.com/R-Soeters/frontend_hotel";
-}
-function goToHotelBack() {
-    window.location="https://github.com/Vossa91/YCHotelBackend";
-}
-function goToCV() {
-    window.location="https://github.com/MrMibsen/YCGen2301-InteractieveCV";
-}
-function goToQuiz() {
-    window.location="https://github.com/MrMibsen/Quizje";
-}
+
 //Prepents the hand and shadow icons.
 function selection(tokenMenu){
 
