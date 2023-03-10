@@ -209,7 +209,7 @@ img {
     color: #CCC;
 }
 
-.dark-mode #wrapper, .dark-mode #tabbladen, .dark-mode #pers, .dark-mode .flip-card {
+.dark-mode #wrapper, .dark-mode #tabbladen, .dark-mode #pers, .dark-mode .flip-card, .dark-mode .modal-content {
     background-color: #242424;
     color: #CCC;
 }
