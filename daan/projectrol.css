@@ -1,15 +1,26 @@
-#hrtaken{
-    width: 750px;
+/* div over het team */
+#overhetteam {
+    padding: 10px;
+    background-color: #2dc9de;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
-#positiehrtaken{
-    float:left;
-    justify-content: left;
+#wireframekameroverzicht{
+    margin-bottom: 200px;
 }
+
+#wireframemember{
+    float:right;
+    height: 75%;
+}
+
 /* navbar */
 .navbar {
-    background-image: url("universe.jpg");
-    background-repeat: no-repeat;
+    background-image: url("universe.jpg") !important;
+    background-repeat: no-repeat !important;
 
 }
 
@@ -72,3 +83,4 @@ body, html {
   #News {background-color: grey;}
   #Contact {background-color: #2dc9de;}
   #About {background-color: grey}
+

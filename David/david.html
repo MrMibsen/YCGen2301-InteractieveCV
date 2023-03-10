@@ -12,189 +12,306 @@
     
     <body>
         <div class ="w3-container w3-blue">
+
           <div class="row">
-            <div class="col-lg-4 qualities-section">
-                <h1>Personal Information</h1>
-                <h4>Name: David Redder</h4>
-                <h4>Adress: Heuvellaan 35, 2803DV, Gouda</h4>
-                <h4>Phone no.: +31 6 365 88 700</h4>
-                <h4>E-mail: david-redder@hotmail.com</h4>
-                <h4>Gender: Male</h4>
-                <h4>Birthdate: 27-04-1993</h4>
+            <div id="tabbladen">
+                <div class="tab">
+                    <div class="btn-group col-sm-12" role="group">
+                    <input type="button" class="tablinks col-md-3" value="Summary" onclick="openTab(event, 'Summary')">
+                    <input type="button" class="tablinks col-md-3" value="Work History & Educations" onclick="openTab(event, 'Workhistory')">
+                    <input type="button" class="tablinks col-md-3" value="Skills" onclick="openTab(event, 'Skills')">
+                    <input type="button" class="tablinks col-md-3" value="Side Projects" onclick="openTab(event, 'Sideprojects')">
 
-            </div>
-
-              <div class="col-lg-4 qualities-section">
-                
-                <div>
-                  <h1 style="text-align: center;">Github:</h1>
-                  <a href="https://github.com/DerFr0sch">
-                    <input type="image" id="myimage" src="DavidGithubQR.png" />
-                  </a>
+                    </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img class="img-fluid" src="mooiedavid.jpg" alt="Avatar" width="300px", height="300px" >
-                      </div>
-                      <div class="flip-card-back">
-                        <h1>John Doe</h1>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+                <div id="Summary" class="tabcontent">
+                  <div class="row">
+                    <div class="col-lg-1">
+
+                    </div>
+                    <div class="col-lg-5">
+                      <div class="card">
+                        <img src="mooiedavid.jpg" alt="David" style="width:100%">
+                        <h1>David Redder</h1>
+                        <p class="title">DevOps Engineer</p>
+                        <p>The Hague University</p>
+                        <!-- <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> -->
+                        <button type="button" id="profilecard" style="text-align: center;" class="collapsible">Contact</button>
+                        <div class="content">
+                        <p>
+                          <h5>Phone no.: +31 6 365 88 700</h5>
+                          <h5>E-mail:</h5> 
+                          <h5>david-redder@hotmail.com</h5>
+                          <h5>Birthdate: 27-04-1993</h5>
+                        </p>
+                        </div>
                       </div>
                     </div>
-                  </div> 
-              
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src="mooiedavid.jpg" alt="Avatar" width="300px", height="300px" >
-                      </div>
-                      <div class="flip-card-back">
-                        <h1>John Doe</h1>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+
+                    <div class="col-lg-3">
+                      <div>
+                        <a href="https://www.linkedin.com/in/david-redder-190133209/">
+                          <input class="QRcodeplaatjes" type="image" id="myimage" src="DavidLinkedInQR.png" />
+                        </a>
+                        <h1 style="text-align: center;">Linkedin:</h1>
                       </div>
                     </div>
-                </div> 
-                  
-              </div>
-
-              <div class="col-lg-4 qualities-section">
-
-                <div>
-                  <h1>Linkedin:</h1>
-                  <a href="https://www.linkedin.com/in/david-redder-190133209/">
-                    <input type="image" id="myimage" src="DavidLinkedInQR.png" />
-                  </a>
-                </div>
-
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <h1>Critical Thinking</h1>
-                      </div>
-                      <div class="flip-card-back">
-                        <h2>I view every project with a critical eye, this helps me to specify details and weed out problem beforehand.</h2>
+                    <div class="col-lg-3">
+                      <div>
+                        <a href="https://github.com/DerFr0sch">
+                          <input class="QRcodeplaatjes" type="image" id="myimage" src="DavidGithubQR.png" />
+                        </a>
+                        <h1 style="text-align: center;">Github:</h1>
                       </div>
                     </div>
                   </div>
-            
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src="mooiedavid.jpg" alt="Avatar" width="300px", height="300px" >
+
+                  <div class="row">
+                    <div class="col-lg-3">
+                    </div>
+        
+                    <div class="col-lg-9">
+                      <h1>"I left every town better than I found it."</h1>
+                    </div>
+                  </div>
+        
+                  <div class="row">
+                    <div class="col-lg-5">
+                    </div>
+        
+                    <div class="col-lg-3">
+                      <h4 style="text-align: end;">- Mollymauk Tealeaf</h4>
+                    </div>
+        
+                    <div class="col-lg-4">
+                    </div>
+        
+                  </div>
+        
+                  <div class="row">
+                    <div class="col-lg-3">
+                    </div>
+        
+                    <div id="quotepadding" class="col-lg-6">
+                      <h6 style="text-align: center;">This personal motto of mine motivates me every day to be kind and helpful towards others, by doing what I do best.</h6>
+                    </div>
+        
+                    <div class="col-lg-3">
+                    </div>
+        
+                  </div>
+
+                </div>
+
+                <div id="Workhistory" class="tabcontent">
+                  <div class="row">
+                    <h1>Work History</h1>
+                    <div class="col-lg-6 bordercollie">
+                      <button type="button" class="collapsible"><b>DevOps Engineer | Youngcapital NEXT | 01-2023 / Current</b></button>
+                      <div class="content">
+                        <p>In this work I worked together with a group of people to create a hotel reservation website. My responsibilities include:</p>
+                        <p>- Managing the daily Scrum meetings.</p>
+                        <p>- Developing front- and backend features such as; the functionality, logic, front- and backend communication.</p>
+                        <p>The frontend was coded in HTML, Javascript and CSS. The backend was coded in Python. The website was deployed using Microsoft Azure.</p>
+                        <p>Currently working on C and Java certificates.</p>
                       </div>
-                      <div class="flip-card-back">
-                        <h1>John Doe</h1>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+
+                      <button type="button" class="collapsible"><b>Test Engineer | Orion Engineering - Outsourced to KIWA NL | 02-2022 / 09-2022</b></button>
+                      <div class="content">
+                        <p>Part of a team with the main responsibility to test the quality of sanitary tapware, hoses and shower cartridges. Tests include leaktightness, endurance and flow according to various NEN-EN norms.</p>
+                      </div>
+
+                      <button class="collapsible"><b>Internship Forensics Researcher | Netherlands Forensic Institute | 05-2021 / 11-2021</b></button>
+                      <div class="content">
+                        <p>- Optics based fundamental research to create an automated glass-detection kit for trace research using polarized light in optical microscopes.</p>
+                        <p>- Taking the first steps in creating a model system to replicate the physical behavioural aspects of glass using phosphorent material for researchers to replicate crime scenes.</p>
+                        <p>- Programming an Arduino microcontroller in C to operate a camera and UV-light to adhere to forensic quality demands.</p>
+                      </div>
+
+                      <button class="collapsible"><b>Internship Radiology | University Medical Centre Utrecht | 11-2020 / 04-2021</b></button>
+                      <div class="content">
+                        <p>- Creating several antenna to detect Deuterium in a 7 Tesla MRI scanner to be mounted on a head coil.</p>
+                        <p>- Antenna prototype has been succesfully created, and has been used to create to continue the research.</p>
+                        <p>- Head coil is to be used to monitor the effectiveness of cancer treatments in patients with head tumors.</p>
+                      </div>
+
+                      <button class="collapsible"><b>Internship Forensics Researcher | Netherlands Forensic Institute | 08-2016 / 07-2017</b></button>
+                      <div class="content">
+                          <p>Validation of a XRF-spectrophotometer in order to confirm the device could detect organic compounds and metals in dirt and oils on a forensic level of accuracy.</p>
+                      </div>
+
+                      <button class="collapsible"><b>Internship R&D | ChiralVision | 09-2015 / 07-2016</b></button>
+                      <div class="content">
+                          <p>Supporting member of the R&D team.</p>
+                          <p>Work involved monitoring the efficiency and productivity of the beads produced.</p>
+                      </div>
+
+                      <button class="collapsible"><b>Volunteer | MangaKissa | 08-2013 / Current</b></button>
+                      <div class="content">
+                          <p>In this volunteer work I helped at a public library as a host, information clerk and general support for the visitors present. After the physical location shut down, my work continued in assisting the streaming services established by other members.</p>
                       </div>
                     </div>
-                </div> 
-              
-              </div>
 
-          </div>
+                    <div class="col-lg-6">
+                      <h1>Educations</h1>
+                      <div class="bordercollie">
+                        <button class="collapsible"><b>Applied Physics | The Hague University | 09-2017 / 11-2021</b></button>
+                        <div class="content">
+                          <ul>
+                            <li>Bachelor's Degree</li>
+                            <li>Specialization in Photonics.</li>
+                            <li>Programming Skills learned: Python, MATLAB, Labview.</li>
+                          </ul>
+                        </div>
 
-          <div class="row">
-            <div class="col-lg-6">
-            </div>
 
-            <div class="col-lg-6">
-              <h1>"I left every town better than I found it."</h1>
-            </div>
-          </div>
+                        <button class="collapsible"><b>Vocational Education in Chemistry | ROC Leiden | 08-2014 / 02-2017</b></button>
+                        <div class="content">
+                          <ul>
+                            <li>Vocational Degree</li>
+                            <li>Specialization in Physical Chemistry.</li>
+                            <li>Educated in devices GLC, GFAAS, HPLC, FIR and general lab etiquette and skills.</li>
+                          </ul>
+                        </div>
+                      </div>
 
-          <div class="row">
-            <div class="col-lg-8">
-            </div>
+                      <h1>References</h1>
+                      <div class="bordercollie">
+                        <button class="collapsible"><b>Martijn van Beijeren</b></button>
+                          <div class="content">
+                            <p>Position: Manager</p>
+                            <p>Employer: KIWA NL - Water and Gas Installations</p>
+                            <p>E-mail: martijn.van.beijeren@kiwa.nl</p>
+                          </div>
+          
+                          <button class="collapsible"><b>Jaap van der Weerd</b></button>
+                          <div class="content">
+                            <p>Position: Researcher</p>
+                            <p>Employer: Netherlands Forensic Institute - Microtraces</p>
+                            <p>E-mail: j.van.der.weerd@nfi.nl</p>
+                          </div>
+          
+                          <button class="collapsible"><b>Marion Stelling</b></button>
+                          <div class="content">
+                            <p>Position: Researcher</p>
+                            <p>Employer: Netherlands Forensic Institute - Chemical and Physical Traces</p>
+                            <p>E-mail: m.stelling@nfi.nl</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
 
-            <div class="col-lg-3">
-              <h4 style="text-align: end;">- Mollymauk Tealeaf</h4>
-            </div>
+                <div id="Skills" class="tabcontent">  
+                  <div class="row">
+                    <div class="col-lg-6 qualities-section">
+                      <h1>Hard Skills</h1>
+                      <p>Python</p>
+                      <div class="container">
+                        <div class="skills html">70%</div>
+                      </div>
 
-            <div class="col-lg-1">
-            </div>
+                      <p>HTML/Javascript</p>
+                      <div class="container">
+                        <div class="skills css">50%</div>
+                      </div>
 
-          </div>
+                      <p>C</p>
+                      <div class="container">
+                        <div class="skills js">30%</div>
+                      </div>
 
-          <div class="row">
-            <div class="col-lg-6">
-            </div>
+                      <p>Java</p>
+                      <div class="container">
+                        <div class="skills php">30%</div>
+                      </div>
 
-            <div class="col-lg-5">
-              <h6 style="text-align: center;">This quote has become a personal motto of mine, and it has helped me to become a better person. It allows me to achieve my full potential by being what I am best: a kind person.</h6>
-            </div>
+                      <h1>Languages</h1>
+                      <ul>
+                        <p>Dutch: Native</p>
+                        <p>English: Fluent</p>
+                        <p>Japanese: Beginner</p>
+                      </ul>
+                    </div>
 
-            <div class="col-lg-1">
-            </div>
+                    <div class="col-lg-6 qualities-section">
+                      <h1>Soft Skills</h1>
+                      <div class="row">
+                        <div class="col-lg-6 qualities-section">                          
+                          <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                  <h1>Communication</h1>
+                                  <small>click me!</small>
+                                </div>
+                                <div class="flip-card-back">
+                                  <h2>Placeholder</h2>
+                                </div>
+                              </div>
+                            </div> 
+                        
+                          <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                  <h1>Teamplayer</h1>
+                                  <small>click me!</small>
+                                </div>
+                                <div class="flip-card-back">
+                                  <h2>I work well in teams. In my traineeship I worked with 6 other people to make a Hotel Reservation website.</h2>
+                                </div>
+                              </div>
+                          </div> 
+                            
+                        </div>
+          
+                        <div class="col-lg-6 qualities-section">
+                          <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                  <h1>Critical Thinking</h1>
+                                  <small>click me!</small>
+                                </div>
+                                <div class="flip-card-back">
+                                  <h2>I view every project with a critical eye, this helps me to specify details and weed out problems beforehand.</h2>
+                                </div>
+                              </div>
+                            </div>
+                      
+                          <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <h1>Leadership</h1>
+                                <small>click me!</small>
+                              </div>
+                              <div class="flip-card-back">
+                                <h2>Placeholder</h2>
+                              </div>
+                            </div>
+                          </div> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-          </div>
-
+                <div id="Sideprojects" class="tabcontent">
+                  Embedded Engineering
+                </div>
+            </div>  
         </div>
-        
+
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-4 qualities-section">
 
-              <button type="button" class="collapsible">Test Engineer | 02-2022 / 09-2022</button>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <button class="collapsible">Internship Forensics Researcher | 05-2021 / 11-2021</button>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <button class="collapsible">Internship Radiology | 11-2020 / 04-2021</button>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <button class="collapsible">Internship Forensics Researcher | 08-2016 / 07-2017</button>
-              <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-
-              <button class="collapsible">Educations</button>
-              <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <h1>Skills</h1>
-              <button class="collapsible">Programming</button>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-              <h1>Side Projects</h1>
-              <button class="collapsible">Embedded Engineering</button>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-              <h1>References</h1>
-                <button class="collapsible">Martijn van Beijeren</button>
-                <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <button class="collapsible">Jaap van der Weerd</button>
-                <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
+              
             </div>
 
           </div>
-
-
-          <button type="button" class="collapsible">Test Engineer | 02-2022 / 09-2022</button>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
+        </div>
           
     </body>
 
@@ -213,6 +330,19 @@
           }
         });
       }
+    </script>
+    <script>
+      // tabs
+      function openTab(evt, tabName) {
+          var i;
+          var tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+              }
+                  document.getElementById(tabName).style.display = "block";
+      }
+
+      openTab(event, 'Summary')
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Hello world!</title>
+    <title>CV Overzichtspagina</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link href="main.css" rel="stylesheet" type="text/css">
@@ -24,23 +24,99 @@
       </div>
     <div class="row">
       <div class="col-lg-3">
-        Ter info: one of three columns
+        <div id="infoproject">
+          <p>
+            <h5>Project: Hotel-reserveringssysteem</h5><br>
+            <h7><b>Context</b></h7><br>
+            <h7>
+              Begin 2023 hebben we als traineegroep gewerkt aan een project rondom de ontwikkeling van een hotelreserveringssysteem. <br><br>
+              Het project is uitgevoerd via de SCRUM-werkwijze, waarbij we wekelijkse sprints hebben gehanteerd, om zo flexibel om te gaan met de veranderende klantwens.<br>
+              In dit project bestond de klant uit enkele docenten van de opleider (@TheAcademy). <br><br>
+              In vijf weken hebben we een een site met een werkend reserveringssysteem neergezet waar we je graag meer over vertellen! <br>
+            </h7>
+            
+            <img src="hotelScreenshot1.png" id="hotelfoto" title="Kamer boeken bij ons mooie reserveringssysteem">
+            <div id="caption">
+              <b>Kamer boeken bij ons mooie reserveringssysteem</b>
+              </div>
+              <br>
+            <h7><b>Het proces: van scratch naar product</b></h7><br>
+            <h7> 
+              Vanuit de verschillende projectrollen zijn we gestart met het project. Globaal gezien hebben we de volgende stappen doorlopen: <br><br>
+              <button type="button" class="collapsible"> Informatie-analyse en samenwerking </button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Klantgesprekken, requirements in kaart brengen, wireframes, UML-klassediagram</li>
+                  <li>Samenwerking inrichten, o.a. via GitHub en Trello</li>
+                </ul>
+              </p>
+              </div>
+              <button type="button" class="collapsible">Backend</button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Database: van lokaal opgezet (SQL) naar online deployment</li>
+                  <li>Azure Web App (PaaS) - Linux</li>
+                  <li>Programmeren via Python en Flask</li>
+                </ul>
+              </p>
+              </div>
+              <button type="button" class="collapsible">Frontend</button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Deployment via Static Web App</li>
+                  <li>HTML (inhoud) en CSS (styling) van de site</li>
+                  <li>Interactiviteit van de site ingebouwd via JavaScript</li>
+                </ul>
+              </p>
+              </div>
+              <button type="button" class="collapsible">LowCode</button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Mendix, inrichten domain models en microflows</li>
+                  <li>Eigen database voor LowCode opgesteld voor hotelreserveringssysteem</li>
+                  <li>Via bouwblokken stap voor stap het hotelreserveringssysteem gemaakt</li>
+              </ul>
+              </p>
+              </div>
+              <button type="button" class="collapsible">(Big)Data-onderzoek</button>
+              <div class="content">
+              <p>
+                <ul>
+                  <li>Onderzoeksvraag: welke factoren zijn aan te wijzen als annuleringsindicatoren? Hoe kan dit inzichtelijk worden gemaakt?</li>
+                  <li>Aanpak: met behulp van algoritmen de factoren achterhalen. Om deze vervolgens verder te onderzoeken.</li>
+                  <li>9 fases doorlopen van data-analyse</li>
+                  <li>Aanbevelingen en conclusies</li>
+              </ul>
+              </p>
+              </div>
+              </ul>
+
+            <a href="hotelprojectpagina.html"><button type="button" class="btn btn-primary" id="resultaatknop"><b>Bekijk het resultaat!</b></button></a>
+            </h7>
+          </p>
+        </div>
       </div>
+
       <div class="col-lg-6" id="allefotos">
         <div class="row">
-          <a href="Michael/MichaelCV.html" class="col-lg-4 text-start" target="_blank"><img src="HeadshotMichael.jpg" class="img-fluid rounded-circle" alt="" width="2666" height="3081"></a>
-          <a href="" class="col-lg-4 text-center" target="_blank"><img src="Lindsay_Headshot.jpg" class="img-fluid rounded-circle" alt="" width="162" height="160"></a>
-          <a href="vossa/cv/vossa.html" class="col-lg-4 text-end" target="_blank"><img src="fotovossa.JPG" class="img-fluid rounded-circle" alt="" width="673" height="898"></a>
+          <a href="Michael/MichaelCV.html" target="_blank" class="col-sm-4 text-start"><img src="HeadshotMichael.jpg" class="img-fluid rounded-circle zoom" alt=""></a>
+          <a href="https://interactiefcv102-sandbox.mxapps.io/index.html?profile=Responsive" target="_blank" class="col-sm-4 text-center"><img src="Lindsay_Headshot.jpg" class="img-fluid rounded-circle zoom" alt=""></a>
+          <a href="vossa/cv/vossa.html" target="_blank" class="col-sm-4 text-end"><img src="fotovossa.JPG" class="img-fluid rounded-circle zoom" alt=""></a>
         </div>
         <div class="row">
-          <a href="daan/daanpagina.html" class="col-lg-4 text-start" target="_blank"><img src="daanfoto.jpg" class="img-fluid rounded-circle" alt="" width="2666" height="3081"></a>
-          <a href="" class="col-lg-4 text-center" target="_blank"><img src="" class="img-fluid rounded-circle" alt="" width="162" height="160"></a> 
-          <a href="" class="col-lg-4 text-end" target="_blank"><img src="" class="img-fluid rounded-circle" alt="" width="673" height="898"></a>
+          <a href="daan/daanpagina.html" class="col-sm-4 text-start" target="_blank"><img src="daanfoto.jpg" title="Daan: Informatie-analist" class="img-fluid rounded-circle zoom" alt=""></a>
+          <a href="David/david.html" class="col-sm-4 text-center" target="_blank"><img src="portretdavid.jpg" title="David: DevOps" class="img-fluid rounded-circle zoom" alt=""></a> 
+          <a href="" class="col-sm-4 text-end" target="_blank"><img src="rubenFoto.jpg" title="Ruben: DevOps" class="img-fluid rounded-circle zoom" alt=""></a>
         </div>
         <div class="row">
-          <a href="" class="col-lg-12 text-center" target="_blank"><img src="" class="img-fluid rounded-circle" alt="" width="162" height="160"></a>
+          <a href="" class="col-sm-12 text-center" target="_blank"><img src="foto_kevin.jpg" title="Kevin: Data-analist" class="img-fluid rounded-circle zoom" alt=""></a>
         </div>
       </div>
+
       <div class="col-lg-3">
         <div id="overhetteam">
           <p>
@@ -50,6 +126,10 @@
               Tijdens de betreffende bootcamp heeft elke trainee gewerkt vanuit een specifieke uitstroomrichting. 
               Zie hieronder een overzicht van de uitstroomrichting per trainee:
               <br>
+              <img src="EscapeRoom.jpg" id="escapefoto" title="Ons team bij de Egyptische escape room in Haarlem">
+              <div id="caption">
+              <b>Ons team bij de Egyptische escape room in Haarlem</b>
+              </div>
               <br><b>Michael Ibsen:</b> uitstroomprofiel DevOps 
               <br>
               <br>
@@ -74,62 +154,25 @@
       </div>
       </div>
     </div>
-    <div class="container-fluid names-container">
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        Ruben
-      </button>
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        Daan
-      </button>
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        Linds
-      </button>
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        Michael
-      </button>
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        Kevin
-      </button>
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        David
-      </button>
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        Vossa
-      </button>
-      <button
-        type="button"
-        class="btn btn-danger btn-circle btn-md names-padding"
-      >
-        Red
-      </button>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+  </div>
   </body>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
