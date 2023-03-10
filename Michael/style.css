@@ -45,6 +45,20 @@ h1, h2, #instructions{
 	 animation-fill-mode: forwards;	
 }
 
+#languages{
+	opacity: 0;
+	animation-name: appearing3;
+	 animation-duration: 3s;
+	 animation-delay: 1s;
+ 	 animation-timing-function: linear;
+	 animation-fill-mode: forwards;
+	position: fixed;
+	margin-left: 750px;	
+	margin-top: -40px;
+	font: 20px arial;
+}
+
+
 .screenOff{
 	opacity: 0;
 	position: absolute;
