@@ -608,7 +608,7 @@ cursor:pointer;
 	 animation-timing-function: ease;		  	  
 }
 
-#menuNederlands{
+.menuNederlands{
 	position: absolute;
 	padding: 10px 0px 10px 40px;
 	width: 345px;
@@ -627,6 +627,10 @@ cursor:pointer;
 	animation-name: movingUp;
 	 animation-duration: 0.5s;
 	 animation-timing-function: ease;		  	  
+}
+
+.footerNederlands{
+	margin-bottom: 700px;
 }
 
 #menu li {
