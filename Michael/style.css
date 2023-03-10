@@ -127,7 +127,7 @@ body{
 }
 
 #soundcloud{
-	margin: 680px 0px 0px 0px;
+	margin: 695px 0px 0px 0px;
 	animation-name: movingUp;
 	animation-duration: 1.5s;
 	animation-timing-function: ease;
@@ -577,6 +577,27 @@ cursor:pointer;
 	 animation-timing-function: ease;		  	  
 }
 
+#menuNederlands{
+	position: absolute;
+	padding: 10px 0px 10px 40px;
+	width: 345px;
+	list-style: none;
+	background: radial-gradient(-180px 0px,circle ,#0053ad 100px,#001b85 350px,#000223);
+     background: -moz-radial-gradient(-180px 0px,circle ,#0053ad 100px,#001b85 350px,#000223);
+	 background: -webkit-radial-gradient(-180px 0px,circle ,#0053ad 100px,#001b85 350px,#000223);
+	 background: -o-radial-gradient(-180px 0px,circle ,#0053ad 100px,#001b85 350px,#000223);
+	border: 5px solid;
+	border-radius: 15px;
+	 -moz-border-radius: 15px;
+	 -webkit-border-radius: 15px;
+	box-sizing: border-box;     
+	 -moz-box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	animation-name: movingUp;
+	 animation-duration: 0.5s;
+	 animation-timing-function: ease;		  	  
+}
+
 #menu li {
 	line-height:40px;
 	width: 0px;
@@ -629,7 +650,7 @@ cursor:pointer;
 
 #time{
 	position:absolute;
-	margin: 530px 0px 0px 0px;
+	margin: 550px 0px 0px 0px;
 	width: 250px;
 	height: 101px;
 	background: radial-gradient(-40px -290px,circle ,#0053ad 280px,#001b85 350px,#000223);
@@ -670,7 +691,7 @@ cursor:pointer;
 
 #footer{
 	position:absolute;
-	margin: 630px 0px 0px 490px;
+	margin: 650px 0px 0px 490px;
 	width: 500px;
 	height: 75px;
 	padding: 15px 0px 0px 20px;
