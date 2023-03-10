@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gobutton.css" />
+    <title>Ruben CV</title>
+  </head>
+  <body>
+    <!-- MAIN IMAGE AND BUTTON SECTION -->
+    <!-- Main image -->
+    <div class="center">
+      <img src="rubenFoto.jpg" alt="profilepic" class="profilepic" />
+    </div>
+
+    <!-- the Who button -->
+    <div class="pos_who">
+      <button class="button button_who" onclick="alert('Ruben')">
+        <b>Who</b>
+      </button>
+    </div>
+
+    <!-- the What button -->
+    <div class="pos_what">
+      <button
+        id="but_what"
+        class="button button_what"
+        onclick="what_showFunction()"
+      >
+        <b>What</b>
+      </button>
+    </div>
+
+    <!-- the How button -->
+    <div class="pos_how">
+      <button class="button button_how" onclick="alert('skills')">
+        <b>How</b>
+      </button>
+    </div>
+
+    <!-- the contact button -->
+    <div class="pos_con">
+      <button class="button button_con" onclick="alert('contact info')">
+        <b>Contact me!</b>
+      </button>
+    </div>
+
+    <!-- CONTAINER SECTION -->
+    <!-- what container -->
+    <div id="what_content" style="display: none"></div>
+    <div id="study_content" style="display: none"></div>
+    <div id="work_content" style="display: none"></div>
+  </body>
+</html>
