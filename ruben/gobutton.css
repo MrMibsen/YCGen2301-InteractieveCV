@@ -133,7 +133,7 @@ img:hover {
 }
 
 /* CURSUS button */
-.pos_cursus {
+.pos_work {
   margin: 0;
   position: absolute;
   top: 56%;
@@ -141,7 +141,7 @@ img:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.button_cursus {
+.button_work {
   height: 130px;
   width: 130px;
   border-radius: 50%;
