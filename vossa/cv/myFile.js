@@ -74,9 +74,9 @@ function showImage() {
 
 // Snake JavaScript
 const board_border = 'black';
-    const board_background = 'white';
-    const snake_col = 'lightpink';
-    const snake_border = 'darkred';
+const board_background = 'white';
+const snake_col = 'lightpink';
+const snake_border = 'darkred';
     
     let snake = [
       {x: 200, y: 200},

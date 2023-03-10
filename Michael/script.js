@@ -133,9 +133,11 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
     showEducation();
 }else if(e.keyCode == 13 && tokenMenu == 4){
     showProjects();
-}else if(e.keyCode == 13 && tokenMenu == 6){
-    showContact();
+}else if(e.keyCode == 13 && tokenMenu == 5){
+    showQuest();
 }else if(e.keyCode == 13 && tokenMenu == 7){
+    showContact();
+}else if(e.keyCode == 13 && tokenMenu == 8){
     goBackToIndex();
 }else if((e.keyCode == 72 || e.keyCode == 104) && tokenHide){
     tokenHide = false;
@@ -155,6 +157,7 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
 function showMotivation() {
     document.getElementById("motivation").style.display = "block";
     document.getElementById("languages").style.display = "none";
+    document.getElementById("landingbio").style.display = "none";
     document.getElementById("itskills").style.display = "none";
     document.getElementById("education").style.display = "none";
     document.getElementById("projects").style.display = "none";
@@ -163,6 +166,7 @@ function showMotivation() {
 function showLanguages() {
     document.getElementById("languages").style.display = "block";
     document.getElementById("motivation").style.display = "none";
+    document.getElementById("landingbio").style.display = "none";
     document.getElementById("itskills").style.display = "none";
     document.getElementById("education").style.display = "none";
     document.getElementById("projects").style.display = "none";
@@ -171,6 +175,7 @@ function showLanguages() {
 function showITskills() {
     document.getElementById("itskills").style.display = "block";
     document.getElementById("languages").style.display = "none";
+    document.getElementById("landingbio").style.display = "none";
     document.getElementById("motivation").style.display = "none";
     document.getElementById("education").style.display = "none";
     document.getElementById("projects").style.display = "none";
@@ -179,6 +184,7 @@ function showITskills() {
 function showEducation() {
     document.getElementById("education").style.display = "block";
     document.getElementById("languages").style.display = "none";
+    document.getElementById("landingbio").style.display = "none";
     document.getElementById("itskills").style.display = "none";
     document.getElementById("motivation").style.display = "none";
     document.getElementById("projects").style.display = "none";
@@ -187,6 +193,7 @@ function showEducation() {
 function showProjects() {
     document.getElementById("projects").style.display = "block";
     document.getElementById("languages").style.display = "none";
+    document.getElementById("landingbio").style.display = "none";
     document.getElementById("itskills").style.display = "none";
     document.getElementById("education").style.display = "none";
     document.getElementById("motivation").style.display = "none";
@@ -195,6 +202,16 @@ function showProjects() {
 function showContact() {
     document.getElementById("contact").style.display = "block";
     document.getElementById("languages").style.display = "none";
+    document.getElementById("landingbio").style.display = "none";
+    document.getElementById("itskills").style.display = "none";
+    document.getElementById("education").style.display = "none";
+    document.getElementById("motivation").style.display = "none";
+    document.getElementById("projects").style.display = "none";
+}
+function showQuest() {
+    document.getElementById("contact").style.display = "none";
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("landingbio").style.display = "block";
     document.getElementById("itskills").style.display = "none";
     document.getElementById("education").style.display = "none";
     document.getElementById("motivation").style.display = "none";
@@ -203,6 +220,7 @@ function showContact() {
 function goBackToIndex() {
     window.location="https://black-glacier-0ea2ee403.2.azurestaticapps.net";
 }
+
 //Prepents the hand and shadow icons.
 function selection(tokenMenu){
 
