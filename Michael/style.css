@@ -109,6 +109,12 @@ body{
 	margin-top: -5px;
 	margin-left: 30px;
 }
+#techcolumn2{
+	font: 30px arial;
+	text-align: left;
+	margin-top: -5px;
+	margin-left: -30px;
+}
 
 .tableheader{
 	font: 35px arial;
@@ -286,6 +292,52 @@ cursor:pointer;
 	animation-name: appearing2;
 	border-collapse: separate;
   	border-spacing: 160px 0;
+	padding: 28px;
+}
+#infotech{
+	text-align: left;
+	display:block;
+	margin-left: -50px;
+	margin-top: -30px;
+	margin-right: -200px;
+	animation-name: appearing2;
+	border-collapse: separate;
+  	border-spacing: 60px 0;
+	padding: 28px;
+}
+
+#infolanguages{
+	text-align: left;
+	display:block;
+	margin-left: -90px;
+	margin-top: -30px;
+	margin-right: -200px;
+	animation-name: appearing2;
+	border-collapse: separate;
+  	border-spacing: 100px 0;
+	padding: 28px;
+}
+#infoeducation{
+	text-align: left;
+	display:block;
+	margin-left: -80px;
+	margin-top: -30px;
+	margin-right: -200px;
+	animation-name: appearing2;
+	border-collapse: separate;
+  	border-spacing: 100px 0;
+	padding: 28px;
+}
+
+#infoproject{
+	text-align: left;
+	display:block;
+	margin-left: -80px;
+	margin-top: -30px;
+	margin-right: -200px;
+	animation-name: appearing2;
+	border-collapse: separate;
+  	border-spacing: 100px 0;
 	padding: 28px;
 }
 
