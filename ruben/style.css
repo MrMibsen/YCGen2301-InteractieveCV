@@ -1,0 +1,65 @@
+body {
+    background-color: #ffffff;
+}
+
+/*Content containers*/
+#container_study {
+  height: 340px;
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  /* border: 3px solid #fab22c; */
+  padding: 10px;
+  border-radius: 30%;
+  font-size: 20px;
+}
+
+#container_work{
+  height: 340px;
+  width: 400px;
+  position: absolute;
+  top: 67%;
+  left: 12%;
+  /* border: 3px solid #fab22c; */
+  padding: 10px;
+  border-radius: 30%;
+  font-size: 20px;
+}
+
+/*center anything on your screen */
+.center {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*rounding main image*/
+.profilepic {
+    border-radius: 50%;
+}
+
+/*list styling */
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #fab22c; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+h2 {
+  color:#fab22c;
+}
+
+
+
+
