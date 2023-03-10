@@ -1,0 +1,148 @@
+img {
+  -webkit-filter: brightness(100%);
+}
+
+img:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/*Styling main button type*/
+.button {
+  display:block;
+
+  background-color: transparent;
+  border: none;
+  color: #fab22c;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+
+  color: #fff;
+  border: 3px solid #fab22c;
+  background-image: -webkit-linear-gradient(30deg, #fab22c 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #fab22c 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button:hover {
+  background-position: 100%;
+  color: #fab22c;
+}
+
+/* WHO button */
+.pos_who {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button_who {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* WHAT BUTTON*/
+.pos_what {
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 38%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button_what {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* HOW button */
+.pos_how {
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 62%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button_how {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/*CONTACT ME!*/
+.pos_con {
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  left: 90%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button_con {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+  color: #fab22c;
+  border: 3px solid #fab22c;
+  background-image: -webkit-linear-gradient(30deg, #ffffff 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #ffffff 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button_con:hover {
+  background-position: 100%;
+  color: #ffffff;
+  background-color: #fab22c;
+  border: 3px solid #fab22c;
+}
+
+/* STUDY button */
+.pos_study {
+  margin: 0;
+  position: absolute;
+  top: 41%;
+  left: 27%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button_study {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+/* CURSUS button */
+.pos_work {
+  margin: 0;
+  position: absolute;
+  top: 56%;
+  left: 27%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button_work {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
