@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+}
+
+/*Solid container example */
+#container {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+/*center anything on your screen */
+.center {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*rounding main image*/
+.profilepic {
+    border-radius: 50%;
+}
+
+
+
+
