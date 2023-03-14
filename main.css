@@ -1,7 +1,24 @@
 /* CSS voor index.html voor interactieve CV pagina */
 b, li, ul, h7, h5 {
   color: #104b8d;
+} 
+
+/* infostukje bovenaan */
+#topinfo {
+  margin: 20px 20px 40px 20px;
+  background-color: #90d5df;
+  border-radius: 25px;
+  border-style: solid;    
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
 }
+
+#topinfo h1 {
+  margin-bottom: 20px;
+  color: #104b8d;
+}
+
 /* div over het team */
 #overhetteam {
   padding: 10px;
@@ -63,7 +80,7 @@ b, li, ul, h7, h5 {
   text-align: center;
 }
 
-#resultaatknop {
+.resultaatknop {
   background-color:#ffffff; 
   color: black;
   border-color: black;
@@ -71,7 +88,7 @@ b, li, ul, h7, h5 {
   margin-top: 10px;
 }
 
-#resultaatknop:hover {
+.resultaatknop:hover {
   background-color:#9e9cb3; 
 }
 
