@@ -3,14 +3,111 @@
 <html lang="nl">
 
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Motivatie</title>
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 <link href="main.css" rel="stylesheet" type="text/css">
 
 <body>
-    
+    <div id="header">
+        <nav class="navbar navbar-expand-lg" class="nav navbar-nav navbar-right">
+            
+            <ul class="navbar-nav navbar-custom">
+                <li class="navbar-item">
+                    <a href="#modalOne" class="nav-link navbar" data-bs-toggle="modal" data-bs-target="#modalOne">&#10004; Gratis bezorging vanaf 8:00</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#modalTwo" class="nav-link navbar" data-bs-toggle="modal" data-bs-target="#modalTwo">&#10004; Vandaag besteld, morgen in huis</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="snake.html" class="nav-link navbar" class="nav-link">&#10004; Speel Snake!</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="vossa.html" class="nav-link" title="Klik hier voor mijn motivatie!"><img id="cart" src="img/Winkelmand.png" width="40px" height="40px"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="modal fade" id="modalOne">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p>Als de afstand te overbruggen is, sta ik vanaf 8 uur op de (digitale) stoep voor een fris begin van de werkdag!</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="modal fade" id="modalTwo">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p>Neem mij aan, en ik kan de eerstvolgende werkdag beginnen!</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="img/construction.png" class="col-lg-10 rounded mx-auto d-block" style="margin-top: 20px;">
+        <div class="row">
+            <p>
+                Hoi! Ik ben Vossa, 32 jaar, en ik ben eind februari "afgestudeerd" van de IT bootcamp van Young Capital NEXT, gegeven door
+                @TheAcademy. Tijdens deze bootcamp heb ik vanalles geleerd, van Lowcode tot Azure deployment, waardoor ik nu een goede
+                basiskennis van development en deployment heb. Ook heb ik uiteraard de kans gekregen om me meer te verdiepen in mijn 
+                eigen uitstroomrichting: informatie analyse. Samen met de andere informatie analist in mijn traineegroepje, heb ik gesprekken gehad
+                met de klant en hieruit user stories opgesteld, vragen van de developers beantwoord en geluisterd naar hun feedback, en
+                de sprint reviews geleid.
+            </p>
+            <p>
+                Als kind had ik al een interesse in webdesign, en "hackte" ik graag de HTML van mijn MySpace om de pagina er meer naar mijn wensen
+                uit te laten zien. Een paar jaar geleden heb ik een cursus Webdesign gevolgd en mezelf JavaScript aangeleerd. Tijdens de corona
+                lockdowns is deze interesse uitgebloeid naar programmeren, en heb ik mezelf geleerd om spelletjes te maken in C# en JavaScript. Ik 
+                ben leergierig en nieuwsgierig, en daag mezelf graag uit door complexe codeervraagstukken op te lossen: hoe moeilijker het project,
+                hoe leuker het gevoel als het is gelukt! 
+            </p>
+            <p>
+                Hoe leuk ik coderen ook vind, mis ik hierin het "stukje mens". Vanuit deze wens om problemen op te lossen en dingen beter te maken,
+                in combinatie met mijn sociale kant, ben ik op informatie analyse gekomen. Ik krijg er energie van om met mensen in gesprek te 
+                gaan en samen uit te vogelen wat we nu écht willen, om vervolgens manieren te bedenken waarop we dit voor elkaar kunnen krijgen. 
+                Bij mijn vorige werk stond ik bekend als iemand die proactief zocht naar oplossingen als ik vond dat "dingen beter konden", en was ik 
+                regelmatig degene die de wensen van mijn vertaalafdeling verzamelde en communiceerde naar de IT-afdeling. Dit heeft mij doen nadenken
+                over of vertalen voor mij wel de toekomst was, en me er uiteindelijk toe gezet om deze carrièreswitch te maken.
+            </p>
+            <p>
+                Young Capital NEXT heeft mij de kans geboden om deze carrièreswitch te maken, en nu ben ik op zoek naar een toffe opdrachtgever
+                waar ik kan opgroeien tot echte IT professional!
+            </p>
+            <div class="row">
+                <img src="img/20220529_115827.jpg" class="col-lg-4 fotos" width="768" height="768">
+                <img src="img/DSC01264.JPG" class="col-lg-4 fotos" width="768" height="1024">
+                <img src="img/IMG-20221207-WA0004.jpg" class="col-lg-4 fotos" width="768" height="969">
+            </div>
+        </div>
+        </div>
+    </div>
+    <p id="hideme">
+        Over mij
+        - Vrijwilligerswerk Natuurcentrum
+        - Karate
+        - Lezen
+
+        Interesse in talen, communicatie
+        - Studie
+        - Van natuurlijke taal naar programmeertalen
+        - IA: schakel tussen IT en business
+        - IA: het belang en de uitdaging van taal in heldere communicatie
+    </p>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="myFile.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </html>

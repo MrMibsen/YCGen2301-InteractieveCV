@@ -28,7 +28,7 @@ html, body {
 }
 
 .navbar-custom li a {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-size: 17px;
 }
 
@@ -37,7 +37,7 @@ html, body {
 }
 
 a:hover {
-    color: white;
+    color: rgb(141, 139, 139);
     text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ a:hover {
 }
 
 .navbar-custom a:hover {
-    color: rgb(118, 92, 92);
+    color: rgb(155, 61, 61) !important;
 }
             
 #pers {
@@ -214,6 +214,10 @@ img {
     color: #CCC;
 }
 
+.dark-mode .navbar-custom a:hover {
+    color: rgb(214, 210, 210) !important;
+}
+
 .dark-mode .flip-card-front, .dark-mode .flip-card-back {
     background-color: #312e2e;
     color: #CCC;
@@ -223,6 +227,10 @@ img {
     background: #0D0D0D;
     color: #CCC;
     border: 2px solid black;
+}
+
+.dark-mode .btn-close {
+    background-color: #CCC !important;
 }
             
 .dark-mode #button:hover {
@@ -259,14 +267,23 @@ img {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  #score {
+#score {
     position: relative;
     text-align: center;
     font-size: 120px;
     margin-bottom: 150px;
-  }
+}
+
+.fotos {
+    max-height: 300px !important;
+    width: auto;
+}
+
+#hideme {
+    color: transparent;
+}
 
 /* Extra responsive */
 @media(max-width: 500px) {
