@@ -16,53 +16,70 @@
             <div class="col-4">
                 <div id="infoproject">
                     <p>
-                    <h5>Project: Hotel-reserveringssysteem</h5><br>
-                    <a href=".....html"><button type="button" class="btn btn-primary" id="resultaatknop"><b>Ga naar het hotelreserveringssysteem!</b></button></a><br><br>
+                    <h5>Project: Hotel-reserveringssysteem</h5>
+                    <a href="https://thankful-pond-0d9424c03.2.azurestaticapps.net/"><button type="button" class="btn btn-primary" id="resultaatknop"><b>Ga naar het hotelreserveringssysteem!</b></button></a><br><br>
                     <h7><b>Meer informatie over het project</b></h7><br>
                     <h7>
                      Zoals benoemd zijn er meerdere stappen doorlopen tijdens dit project. Op deze pagina wordt een kijkje achter de schermen gegeven door in te zoomen op de back-end en de koppeling van de back-end met de front-end.<br>
                      We zoomen daarbij in de volgende onderwerpen: <br><br>
                      1. Database: van lokaal opgezet (SQL) naar online deployment<br><br>
-                     2. Azure Web App (PaaS) - Linux<br><br>
-                     3. Programmeren via Python en Flask   
+                     2. Frond-end deployement<br><br>
+                     3. Back-end: programmeren via Python en Flask   
                      <br><br>
                     </h7>
-                </div>
-                <br>
-                <div id="infoproject">
-                    <h7><b>Manier van (samen)werken</b></h7><br>  
-                    Als projectgroep hebben we gewerkt via de SCRUM-werkwijze met wekelijkse sprints.<br><br> Vóór elke sprint werd een planning gemaakt waarin werd bepaald wat er die week gemaakt werd.
-
-Na elke sprint was er een sprint-review waarbij de klant zijn mening kon geven over de deelproducten (increments). Op basis hiervan ontstaan nieuwe of veranderende wensen. <br><br>De informatie-analisten hadden een coördinerende rol in SCRUM. Denk aan het beheer van het Trello bord, een opzet maken voor de sprint-reviews en het prioriteren van de sprint-backlog.
+                    <img id="codevoorbeeld" src="codevoorbeeld.png"> <br><br><br>
                 </div>
                 <br>
             </div>
-            <br><br>
             <div class="col-4"> 
                 <div id="infoproject">
-                    <h7><b>1. Database</b></h7><br>
-                        <h7>
-                            Info over database...
-                        </h7>
-                </div>
-                <br>
-                <div id="infoproject">
-                    <h7><b>2. Azure Web App (PaaS) - Linux</b></h7><br>
-                        <h7>
-                            Info over Azure...
-                        </h7>
+                    <h7><b>Manier van (samen)werken</b></h7><br>  
+                    Als projectgroep hebben we gewerkt via de SCRUM-werkwijze met wekelijkse sprints.<br><br> Vóór elke sprint werd een planning gemaakt waarin werd bepaald wat er die week gemaakt ging worden.
+
+                    Na elke sprint was er een sprint-review waarbij de klant zijn mening kon geven over de deelproducten (increments). Op basis hiervan ontstaan nieuwe of veranderende wensen. <br><br>De informatie-analisten hadden een coördinerende rol in SCRUM. Denk aan het beheer van het Trello bord, een opzet maken voor de sprint-reviews en het prioriteren van de sprint-backlog.<br><br>
+                    <h7><b>Samenwerken via Git & Github</b></h7><br>
+                    In het project is samengewerkt via Github en Git. Door op deze wijze samen te werken, werkt elk projectlid aan de meest recente versie.<br><br>
+                    Hierbij was de coördinatie belangrijk, zodat er geen merge-conflicten ontstonden. 
+                    <br><br>
+                    <h7><b>CI/CD pipeline</b></h7><br>
+                    <h7>
+                        Er is een CI/CD pipeline ingesteld. Als er werk via Github gepusht werd naar (en gemerged met) de main branche, werd dit direct gedeployed via Azure.
+                        Dit zorgt voor automatisering én zowel efficiënt werken als efficiënt testen tijdens het project. 
+                    </h7>
+                    <br>
                 </div>
             </div>
                 <div class="col-4">
                     <div id="infoproject">
-                        <h7><b>3. Programmeren via Python en Flask</b></h7><br>
+                        <h7><b>1. Database</b></h7><br>
                             <h7>
-                                Info over programmeren via Python en Flask...
+                            De database was een Azure SQL database. Het beheer van de database ging via MySQL Workbench. De database is daarna gekoppeld naar het hotelreserveringssysteem via communicatie met de backend (via Python en Flask). 
+                            In de database worden onder andere tabellen met alle boekingen, informatie over de gekozen kamer etc.
+                             
+                            </h7>
+                    </div>
+                    <br>
+                    <div id="infoproject">
+                        <h7><b>2. Front-end - HTML/CSS/Javascript</b></h7><br>
+                            <h7> 
+                            De front-end is gedeployed door een Static Web App (via HTML/CSS/Javascript). 
+                            Door de Javascript functies is er data naar de back-end gestuurd, in de back-end is dit aan elkaar gekoppeld in de database. Hierna is er data uit de database teruggestuurd naar de front-end. Denk aan het overzicht met alle boekingen, informatie over de gekozen kamer etc.
+                            </h7>
+                    </div>
+                    <br>
+                    <div id="infoproject">
+                        <h7><b>3. Back-end - Programmeren via Python en Flask</b></h7><br>
+                            <h7>
+                            De backend is gedeployed door de Microsoft Azure Web App wat zich kenmerkt als een Platform as a Service (PaaS).  
+                            De deployment is gedaan via een Linux besturingssysteem.
+                            Voor het programmeren van de back-end is gebruik gemaakt van de programmeertaal Python. Denk hierbij aan de de verschillende functionele onderdelen van het hotelreserverings-<br>systeem.
+                            Flask is een Python module dat bijdraagt aan het developen van web-applicaties.
                             </h7>
                     </div>
                 </div>
           </div>
         </div>
       </div>
+      <br>
 </body>
 </html>

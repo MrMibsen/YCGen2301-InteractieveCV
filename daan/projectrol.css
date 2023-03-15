@@ -77,10 +77,18 @@ body, html {
     display: none;
     padding: 100px 20px;
     height: 75%;
+    margin-bottom: 50px;
   }
   
   #Home {background-color: #2dc9de;}
-  #News {background-color: grey;}
+  #News {background-color: #808080;}
   #Contact {background-color: #2dc9de;}
   #About {background-color: grey}
 
+  #reqengineering{
+    width: 600px;
+  }
+
+  #klassediagram{
+    width: 600px;
+  }
