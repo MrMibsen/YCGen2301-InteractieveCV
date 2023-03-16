@@ -231,23 +231,6 @@ img {
     margin-bottom: 100px;
 }
 
-/*.picture p {
-
-    padding: 150px 0px 0px 30px;
-}
-
-@media (min-width: 700px) and (max-width: 1000px) {
-    .picture p {
-        padding: 100px 0px 0px 200px;
-    }
-}
-/*
-@media (max-width: 400px) {
-    .picture p {
-        padding: 150px 0px 0px 0px;
-    }
-}*/
-
 /* dark mode */
 .dark-mode html, .dark-mode #wrapper, .dark-mode #pers, .dark-mode .tabcontent {
     background-color: #454444 !important;
@@ -324,10 +307,6 @@ img {
 .fotos, .pictures p {
     max-height: 500px !important;
     width: auto;
-}
-
-#hideme {
-    color: transparent;
 }
 
 /* Extra responsive */
