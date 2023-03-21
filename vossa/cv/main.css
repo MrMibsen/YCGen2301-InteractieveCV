@@ -16,11 +16,11 @@ html, body {
     margin: 0 auto !important;
 }
 
-#header, #button, #darkButton, .tablinks, #terug {
-    background-color: #f298ce;
+#header, #button, #darkButton, .tablinks {
+    background-color: #3e963f;
 }
 
-#darkButton, #button, #terug {
+#darkButton, #button {
     border-radius: 10px;
     border-style: dotted !important;
     border-width: 4px !important;
@@ -32,31 +32,26 @@ html, body {
     font-size: 17px;
 }
 
-#terug {
-    margin: 10px 0px 0px 10px;
-}
-
 a:hover {
     color: rgb(141, 139, 139);
     text-decoration: none;
 }
-
-#cart {
+#cart {    
     position: absolute;
-    top: 12px;
+    top: 10px;
     right: 10px;
 }
 
-#button, #darkButton, .tablinks, #terug {
+#button, #darkButton, .tablinks {
     color: #FFFFFF;
 }
 
-#button:hover, #darkButton:hover, .tablinks:hover, #terug:hover {
-    background-color: #f374c0;
+#button:hover, #darkButton:hover, .tablinks:hover {
+    background-color: #4db660;
 }
 
 .navbar-custom a:hover {
-    color: rgb(155, 61, 61) !important;
+    color: rgb(14, 89, 7) !important;
 }
             
 #pers {
@@ -194,13 +189,13 @@ img {
   
   /* Style v/d voorkant */
 .flip-card-front {
-    background-color: #ecb3d5;
+    background-color: #b3ecb9;
     color: black;
 }
   
   /* Style v/d achterkant */
 .flip-card-back {
-    background-color: lightcoral;
+    background-color: rgb(53, 107, 56);
     color: white;
     transform: rotateY(180deg);
 } 
@@ -325,17 +320,29 @@ img {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 575px) {
     div.resp {
         background-color: white;
     }
     div.resp2 {
-        background-color: #f6c4e2;
+        background-color: #2a713b;
     }
     .dark-mode div.resp {
         background-color: #2B2B2B;
     }
     .dark-mode div.resp2 {
         background-color: #312e2e;
+    }
+    #wrapper {
+        height: 1400px;
+    }
+}
+
+@media (max-width: 800px) {
+    #wrapper {
+        height: 1400px;
+    }
+    .btn-group {
+        width: 100%;
     }
 }

@@ -40,10 +40,8 @@ function darkMode() {
     var element = document.getElementById("darkButton");
         if(element.value === "Dark mode") {
             element.value = "Light mode";
-            document.getElementById("cart").src = "img/Winkelmand.zwart.png";
         } else {
             element.value = "Dark mode";
-            document.getElementById("cart").src = "img/Winkelmand.png";
         }
 }
             
