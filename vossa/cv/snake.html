@@ -10,7 +10,49 @@
   </head>
 
   <body>
-    <a href="vossa.html"><input type="button" id="terug" value="Terug"></a>
+
+    <div id="header">
+      <nav class="navbar navbar-expand-lg" class="nav navbar-nav navbar-right">
+          
+          <ul class="navbar-nav navbar-custom">
+              <li class="navbar-item">
+                  <a href="#modalOne" class="nav-link navbar" data-bs-toggle="modal" data-bs-target="#modalOne">&#10004; Gratis bezorging vanaf 8:00</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="#modalTwo" class="nav-link navbar" data-bs-toggle="modal" data-bs-target="#modalTwo">&#10004; Vandaag besteld, morgen in huis</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="snake.html" class="nav-link navbar" class="nav-link">&#10004; Speel Snake!</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="vossa.html" class="nav-link" title="Klik hier voor mijn motivatie!"><img id="cart" src="img/home.png" width="40px" height="40px"></a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+
+  <div class="modal fade" id="modalOne">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <p>Als de afstand te overbruggen is, sta ik vanaf 8 uur op de (digitale) stoep voor een fris begin van de werkdag!</p>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+          </div>
+      </div>
+  </div>
+      
+  <div class="modal fade" id="modalTwo">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <p>Neem mij aan, en ik kan de eerstvolgende werkdag beginnen!</p>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
         <div id="score">0</div>
         <canvas id="snakeboard" width="400" height="400"></canvas>
 
