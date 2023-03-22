@@ -1,5 +1,5 @@
 /* CSS voor index.html voor interactieve CV pagina */
-b, li, ul, h7, h5 {
+b, li, ul, h7, h5, p {
   color: #104b8d;
 } 
 
@@ -80,7 +80,7 @@ b, li, ul, h7, h5 {
   text-align: center;
 }
 
-.resultaatknop {
+.btn-primary {
   background-color:#ffffff; 
   color: black;
   border-color: black;
@@ -88,8 +88,9 @@ b, li, ul, h7, h5 {
   margin-top: 10px;
 }
 
-.resultaatknop:hover {
-  background-color:#9e9cb3; 
+.btn-primary:hover {
+  background-color:#cdcbe5;
+  border-color: black;
 }
 
 #hotelfoto {
@@ -121,4 +122,19 @@ b, li, ul, h7, h5 {
 
 .zoom:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Hotelprojectpagina.html */
+#infoproject {
+  background-color: #2dc9de;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
+}
+
+#codevoorbeeld {
+  width: 395px;
+  padding: 12px;
 }
